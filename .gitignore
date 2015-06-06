@@ -1,0 +1,6 @@
+.vagrant*
+.vagrant/*
+*.zip
+Vagrantfile
+Security/*
+.gitignorei
