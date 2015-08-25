@@ -15,7 +15,7 @@
                 _WIDTH: 960,
                 _HEIGHT: 896,
 
-                S_Title: "Walking in Their Shoes: Poverty in America",
+                _sTitle: 'Walking in Their Shoes: Poverty in America',
 
                 AGENCY: 1,
                 NO_AGENCY: 2,
@@ -24,10 +24,10 @@
                 WALL_TILE: 20,
                 ROADBLOCK_TILE: 141,
 
-                UP: {x: 0, y: -1, anim: 'up', idle_anim: 'idle-up'},
-                DOWN: {x: 0, y: 1, anim: 'down', idle_anim: 'idle-down'},
-                LEFT: {x: -1, y: 0, anim: 'left', idle_anim: 'idle-left'},
-                RIGHT: {x: 1, y: 0, anim: 'right', idle_anim: 'idle-right'}
+                UP: {x: 0, y: -1, anim: 'up', idleAnim: 'idle-up'},
+                DOWN: {x: 0, y: 1, anim: 'down', idleAnim: 'idle-down'},
+                LEFT: {x: -1, y: 0, anim: 'left', idleAnim: 'idle-left'},
+                RIGHT: {x: 1, y: 0, anim: 'right', idleAnim: 'idle-right'}
             };
 
             if (this.game.device.desktop) {

@@ -58,6 +58,10 @@
             this.player.animations.add('up', [9, 10, 11, 10], 3, true);
             this.player.animations.add('idle-up', [10], 1, true);
 
+            this.player.health = 100;
+            this.player.mentalHealth = 100;
+            this.player.childHealth = 100;
+
             //this.player.tint = this.game.global.playerTint;
             this.game.physics.enable(this.player);
         },
@@ -90,14 +94,18 @@
         stopAnimation: function() {
             this.player.animations.stop(this.player.currentAnimation, true);
 
-            if(this.player.currentAnimation == this.game.constants.LEFT.anim)
-                this.player.animations.play(this.game.constants.LEFT.idle_anim);
-            if(this.player.currentAnimation == this.game.constants.RIGHT.anim)
-                this.player.animations.play(this.game.constants.RIGHT.idle_anim);
-            if(this.player.currentAnimation == this.game.constants.UP.anim)
-                this.player.animations.play(this.game.constants.UP.idle_anim);
-            if(this.player.currentAnimation == this.game.constants.DOWN.anim)
-                this.player.animations.play(this.game.constants.DOWN.idle_anim);
+            if(this.player.currentAnimation === this.game.constants.LEFT.anim) {
+                this.player.animations.play(this.game.constants.LEFT.idleAnim);
+            }
+            if(this.player.currentAnimation === this.game.constants.RIGHT.anim) {
+                this.player.animations.play(this.game.constants.RIGHT.idleAnim);
+            }
+            if(this.player.currentAnimation === this.game.constants.UP.anim) {
+                this.player.animations.play(this.game.constants.UP.idleAnim);
+            }
+            if(this.player.currentAnimation === this.game.constants.DOWN.anim) {
+                this.player.animations.play(this.game.constants.DOWN.idleAnim);
+            }
 
             this.player.currentAnimation = '';
             this.player.isMoving = false;
@@ -117,7 +125,7 @@
             this.player.animations.play(direction.anim, 12, true);
         },
         canMove: function(direction) {
-            return this.map.getTile(this.player.xCoord + direction.x, this.player.yCoord + direction.y).index != WALL_TILE;
+            return this.map.getTile(this.player.xCoord + direction.x, this.player.yCoord + direction.y).index !== this.game.constants.WALL_TILE;
         },
         checkKeys: function () {
 
@@ -129,7 +137,7 @@
                     this.move(this.game.constants.RIGHT);
                 }
                 else if (this.cursors.up.isDown && this.canMove(this.game.constants.UP)) {
-                    this.move(UP);
+                    this.move(this.game.constants.UP);
                 }
                 else if (this.cursors.down.isDown && this.canMove(this.game.constants.DOWN)) {
                     this.move(this.game.constants.DOWN);

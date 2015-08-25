@@ -6,7 +6,7 @@
     Menu.prototype = {
         create: function () {
             var text = this.add.text(this.game.width * 0.4, this.game.height * 0.5,
-                this.game.constants.S_Title, {font: '42px Arial', fill: '#ffffff', align: 'center'
+                this.game.constants._sTitle, {font: '42px Arial', fill: '#ffffff', align: 'center'
                 });
             text.anchor.set(0.5);
 
@@ -27,11 +27,11 @@
         },
 
         noAgency: function() {
-            this.game.global.gameType = NO_AGENCY;
+            this.game.global.gameType = this.game.constants.NO_AGENCY;
             this.game.state.start('Game');
         },
         agency: function() {
-            this.game.global.gameType = AGENCY;
+            this.game.global.gameType = this.game.constants.AGENCY;
             this.game.state.start('Game');
         }
     };
