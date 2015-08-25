@@ -1,0 +1,37 @@
+{
+  "name": "walking-in-their-shoes",
+  "description": "Expressing the struggle of living in poverty through a web game",
+  "readme": "README.md",
+  "repository": 
+  { "type" : "git"
+  , "url" : "https://github.com/DavidWatkins/Walking-in-Their-Shoes.git"
+  },
+  "version": "0.0.0",
+  "dependencies": {},
+
+  "devDependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-concat": "*",
+    "gulp-download": "*",
+    "gulp-rename": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-jshint": "*",
+    "gulp-uglify": "*",
+    "gulp-connect": "*",
+    "gulp-watch": "*",
+    "tiny-lr": "*",
+	"del": "*"
+  },
+
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "lint":  "node ./node_modules/gulp/bin/gulp.js lint"
+  }
+}

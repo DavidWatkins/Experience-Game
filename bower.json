@@ -1,0 +1,13 @@
+{
+  "name": "walking-in-their-shoes",
+  "version": "0.0.0",
+  "authors": [
+    ""
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modal": "~1.1.9",
+    "phaser-official": "latest",
+    "phaser-state-transition-plugin": "~0.1.5"
+  }
+}
