@@ -1,0 +1,86 @@
+{
+	"scenarios": [
+		{
+			"agency": {
+				"Intro": "",
+				"Choices": {
+					"msg": "",
+					"opt1": "",
+					"opt2": "",
+					"final": ""
+				},
+				"Outcome1": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": ""
+			},
+			"no-agency": {
+				"Intro": "",
+				"Choices": "",
+				"Outcome1": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": ""
+			}
+		},
+		{
+			"agency": {
+				"Intro": "",
+				"Choices": {
+					"msg": "",
+					"opt1": "",
+					"opt2": "",
+					"final": ""
+				},
+				"Outcome1": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": ""
+			},
+			"no-agency": {
+				"Intro": "",
+				"Choices": "",
+				"Outcome1": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": ""
+			}
+		}
+	]
+}

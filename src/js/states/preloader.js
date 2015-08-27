@@ -18,19 +18,21 @@
     },
 
     loadResources: function () {
-      this.load.spritesheet('rain', 'assets/rain.png', 17, 17);
-      this.load.spritesheet('player', 'assets/player.png', 31, 32, 12);
-
-      this.load.image('panel', 'img/panel.png');
+      this.load.spritesheet('rain', 'assets/Spritesheets/rain.png', 17, 17);
+      this.load.spritesheet('player', 'assets/Spritesheets/player.png', 31, 32, 12);
 
       this.load.tilemap('map', 'assets/maze.json', null, Phaser.Tilemap.TILED_JSON);
-      this.load.image('tiles', 'assets/tiles.png');
-      this.load.image('MarioCoin32', 'assets/MarioCoin32.png');
+      this.load.image('tiles', 'assets/Spritesheets/tiles.png');
+      this.load.image('MarioCoin32', 'assets/Spritesheets/MarioCoin32.png');
 
-      this.load.spritesheet('agency-start', 'img/agency-start.png', 146, 51);
-      this.load.spritesheet('no-agency-start', 'img/no-agency-start.png', 146, 51);
+      this.load.image('playermove', 'assets/img/playermove.png');
+      this.load.image('keys', 'assets/img/keys.jpg');
 
-      this.load.audio('audio-bounce', ['audio/bounce.ogg', 'audio/bounce.mp3', 'audio/bounce.m4a']);
+      this.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js');
+
+      this.load.audio('music', ['assets/audio/Music.ogg', 'assets/audio/Music.mp3', 'assets/audio/Music.m4a']);
+
+      this.load.json('gameData', 'assets/data/gameData.json');
     },
 
     create: function () {
@@ -39,6 +41,8 @@
 
     update: function () {
       if (!!this.ready) {
+        this.game.gameState.scenarios = this.game.cache.getJSON('gameData').scenarios;
+        this.game.bgMusic = this.game.add.audio('music');
         this.game.state.start('menu');
       }
     },

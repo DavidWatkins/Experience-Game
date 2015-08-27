@@ -21,7 +21,8 @@ paths = {
     'src/bower_components/phaser-state-transition-plugin/dist/phaser-state-transition-plugin.js'
   ],
   js:     ['src/js/**/*.js'],
-  dist:   './dist/'
+  dist:   './dist/',
+  favicon:'src/favicon.ico'
 };
 
 gulp.task('clean', function (cb) {
@@ -29,6 +30,10 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('copy-assets', ['clean'], function () {
+  gulp.src(paths.favicon)
+    .pipe(gulp.dest(paths.dist))
+    .on('error', gutil.log);
+
   gulp.src(paths.assets)
     .pipe(gulp.dest(paths.dist + 'assets'))
     .on('error', gutil.log);

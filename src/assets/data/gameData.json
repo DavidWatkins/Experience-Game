@@ -1,0 +1,88 @@
+{
+	"scenarios": [
+		{
+			"id": 1,
+			"agency": {
+				"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+				"Choices": {
+					"msg": "You have two options:",
+					"opt1": "Attend Parent's Day and miss work",
+					"opt2": "Don't attend and hope Sam won't be upset",
+					"final": "Which do you choose?"
+				},
+				"Outcome1": {
+					"msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs."
+			},
+			"no-agency": {
+				"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+				"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+				"Outcome1": {
+					"msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+					"msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs."
+			}
+		},
+		{
+			"id": 2,
+			"agency": {
+				"Intro": "You wake up this morning feeling absolutely awful. Pounding headache, fever, nausea, the works. You take some Advil while getting Sam ready for school, but it doesn’t really help. After dropping him off at his before-school program, you take a minute to throw up in a nearby trashcan. Your stomach growls with hunger but you ignore it.",
+				"Choices": {
+					"msg": "You have two options here:",
+					"opt1": "You could call in sick and take a day to recuperate",
+					"opt2": "Go to work and hope the Advil kicks in soon",
+					"final": "Which do you choose?"
+				},
+				"Outcome1": {
+					"msg": "You decide to call in sick.  You know that if you went into work, you wouldn’t be as productive or effective and it would take you longer to get better. You call your boss to let him know you’re not coming in; he reminds you that because you don’t have paid sick leave, you will lose a day of pay. You nod, “Yep, I’m aware.�? After spending the day resting and drinking fluids, you feel well enough to go to work tomorrow. But losing 1/5th of your income for that week won’t be easy. You start getting a headache just thinking about all the bills due at the end of the week.",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+				 	"msg": "You decide to go into work. You don’t have paid sick leave and you can’t afford to lose 1/5th of this week’s income. You pop another couple of Advil, pack some crackers for lunch, and head to work. Because you’re not feeling well, you’re not able to be as productive or effective. Your boss notices and asks you to work faster. You tell him you’re sick and that’s why your work is suffering; he says if you’re sick you should be at home so you’re not infecting your fellow workers. You lie and say it’s not that bad so he won’t send you home. Because you can’t take the time to rest, it takes longer for you to fight off the bug- you’re sick for the next two days. ",
+			 		"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": "Because the US doesn’t federally mandate paid sick leave for all workers3, many people (roughly 43 million workers; 80% of which are low-income) do not have paid sick leave4. For these workers, it’s either work sick (possibly making the sickness worse or passing it on to coworkers) or lose pay "
+			},
+			"no-agency": {
+				"Intro": "",
+				"Choices": "You have two options here: you could call in sick and take a day to recuperate or go to work and hope the Advil kicks in soon. Which do you choose? ",
+				"Outcome1": {
+					"msg": "You decide to call in sick.  You know that if you went into work, you wouldn’t be as productive or effective and it would take you longer to get better. You call your boss to let him know you’re not coming in; he reminds you that because you don’t have paid sick leave, you will lose a day of pay. You nod, “Yep, I’m aware.�? After spending the day resting and drinking fluids, you feel well enough to go to work tomorrow. But losing 1/5th of your income for that week won’t be easy. You start getting a headache just thinking about all the bills due at the end of the week.",
+					"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Outcome2": {
+				 	"msg": "You decide to go into work. You don’t have paid sick leave and you can’t afford to lose 1/5th of this week’s income. You pop another couple of Advil, pack some crackers for lunch, and head to work. Because you’re not feeling well, you’re not able to be as productive or effective. Your boss notices and asks you to work faster. You tell him you’re sick and that’s why your work is suffering; he says if you’re sick you should be at home so you’re not infecting your fellow workers. You lie and say it’s not that bad so he won’t send you home. Because you can’t take the time to rest, it takes longer for you to fight off the bug- you’re sick for the next two days. ",
+			 		"health": -1,
+					"mental_health": -1,
+					"child_health:": -1
+				},
+				"Stats": "Because the US doesn’t federally mandate paid sick leave for all workers3, many people (roughly 43 million workers; 80% of which are low-income) do not have paid sick leave4. For these workers, it’s either work sick (possibly making the sickness worse or passing it on to coworkers) or lose pay "
+			}
+		}
+	]
+}

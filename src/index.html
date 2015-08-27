@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>walking-in-their-shoes</title>
+  <title>Walking in Their Shoes</title>
 
   <!-- build:css jquery.modal.min.css -->
-  <link rel="stylesheet" href="bower_components/modal/jquery.modal.min.css">
+  <link rel="stylesheet" href="bower_components\modal\stylesheets">
   <!-- /build -->
 
   <!-- build:css main.min.css -->
@@ -15,36 +15,44 @@
 
 <body>
 
-  <div id="walking-in-their-shoes-game" class="game"></div>
+<div class="fontPreload" style="font-family: Kingthings;">.</div>
 
-  <!-- build:remove -->
-  <script src="http://localhost:35729/livereload.js"></script>
-  <!-- /build -->
+<div id="walking-in-their-shoes-game" class="game"></div>
 
-  <!-- build:js phaser.min.js-->
-  <script src="bower_components/phaser-official/build/phaser.min.js"></script>
-  <!-- /build -->
+<!-- build:remove -->
+<script src="http://localhost:35729/livereload.js"></script>
+<!-- /build -->
 
-  <!-- build:js jquery.min.js-->
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <!-- /build -->
+<!-- build:js phaser.min.js-->
+<script src="bower_components/phaser-official/build/phaser.min.js"></script>
+<!-- /build -->
 
-  <!-- build:js jquery.modal.js-->
-  <script src="bower_components/modal/javascripts/jquery.modal.js"></script>
-  <!-- /build -->
+<!-- build:js jquery.min.js-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- /build -->
 
-  <!-- build:js phaser-state-transition-plugin.js-->
-  <script src="bower_components/phaser-state-transition-plugin/dist/phaser-state-transition-plugin.js"></script>
-  <!-- /build -->
+<!-- build:js jquery.modal.js-->
+<script src="bower_components/modal/javascripts/jquery.modal.js"></script>
+<!-- /build -->
 
-  <!-- build:js main.min.js -->
-  <script src="js/boot.js"></script>
-  <script src="js/preloader.js"></script>
-  <script src="js/menu.js"></script>
-  <script src="js/game.js"></script>
-  <script src="js/main.js"></script>
-  <!-- yo phaser:state new-state-files-put-here -->
-  <!-- /build -->
+<!-- build:js phaser-state-transition-plugin.js-->
+<script src="bower_components/phaser-state-transition-plugin/dist/phaser-state-transition-plugin.js"></script>
+<!-- /build -->
+
+<!-- build:js main.min.js -->
+<script src="js/states/boot.js"></script>
+<script src="js/states/preloader.js"></script>
+<script src="js/states/menu.js"></script>
+<script src="js/states/game.js"></script>
+<script src="js/states/color_chooser.js"></script>
+<script src="js/states/howto.js"></script>
+<script src="js/states/scenarios.js"></script>
+<script src="js/states/endgame.js"></script>
+<script src="js/prefabs/Player.js"></script>
+<script src="js/prefabs/TextInput.js"></script>
+<script src="js/main.js"></script>
+<!-- yo phaser:state new-state-files-put-here -->
+<!-- /build -->
 
 </body>
 </html>
