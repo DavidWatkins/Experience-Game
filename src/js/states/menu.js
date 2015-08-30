@@ -35,7 +35,7 @@
         agency: function() {
             this.game.gameState.isAgency = true;
             this.game.state.start('color_chooser');
-        },
+        }
     };
 
     window['walking-in-their-shoes'] = window['walking-in-their-shoes'] || {};

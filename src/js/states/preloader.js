@@ -19,11 +19,10 @@
 
     loadResources: function () {
       this.load.spritesheet('rain', 'assets/Spritesheets/rain.png', 17, 17);
-      this.load.spritesheet('player', 'assets/Spritesheets/player.png', 31, 32, 12);
+      this.load.spritesheet('player', 'assets/Spritesheets/player.png', 32, 32, 16);
 
       this.load.tilemap('map', 'assets/maze.json', null, Phaser.Tilemap.TILED_JSON);
       this.load.image('tiles', 'assets/Spritesheets/tiles.png');
-      this.load.image('MarioCoin32', 'assets/Spritesheets/MarioCoin32.png');
 
       this.load.image('playermove', 'assets/img/playermove.png');
       this.load.image('keys', 'assets/img/keys.jpg');

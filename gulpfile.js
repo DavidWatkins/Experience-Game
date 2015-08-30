@@ -92,9 +92,12 @@ gulp.task('html', function(){
 });
 
 gulp.task('connect', function () {
+  var port = require('yargs').argv.port;
+  if(port === undefined)
+    port = 80;
   connect.server({
-    root: [__dirname + '/src'],
-    port: 9000,
+    root: [__dirname + '/dist'],
+    port: port,
     livereload: true
   });
 });

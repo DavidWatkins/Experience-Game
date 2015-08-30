@@ -13,7 +13,7 @@
 				"Outcome1": {
 					"msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
 					"health": -1,
-					"mental_health": -1,
+					"mental_health": -2,
 					"child_health:": -1
 				},
 				"Outcome2": {

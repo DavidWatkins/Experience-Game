@@ -2,38 +2,36 @@
   "name": "walking-in-their-shoes",
   "description": "Expressing the struggle of living in poverty through a web game",
   "readme": "README.md",
-  "repository": 
-  { "type" : "git"
-  , "url" : "https://github.com/DavidWatkins/Walking-in-Their-Shoes.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidWatkins/Walking-in-Their-Shoes.git"
   },
   "version": "0.0.0",
   "dependencies": {},
   "license": "MIT",
-
   "devDependencies": {
-    "lodash": "*",
     "bower": "*",
+    "del": "*",
     "gulp": "*",
-    "gulp-util": "*",
     "gulp-concat": "*",
+    "gulp-connect": "*",
     "gulp-download": "*",
-    "gulp-rename": "*",
+    "gulp-jshint": "*",
     "gulp-minify-css": "*",
     "gulp-minify-html": "*",
     "gulp-processhtml": "*",
-    "gulp-jshint": "*",
+    "gulp-rename": "*",
     "gulp-uglify": "*",
-    "gulp-connect": "*",
+    "gulp-util": "*",
     "gulp-watch": "*",
+    "lodash": "*",
     "tiny-lr": "*",
-	"del": "*"
+    "yargs": "^3.22.2"
   },
-
   "scripts": {
     "post-install": "node ./node_modules/bower/bin/bower install",
     "start": "node ./node_modules/gulp/bin/gulp.js",
-
     "build": "node ./node_modules/gulp/bin/gulp.js build",
-    "lint":  "node ./node_modules/gulp/bin/gulp.js lint"
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
   }
 }

@@ -1,6 +1,20 @@
 (function () {
     'use strict';
 
+    function List(list) {
+        this.list = list;
+    }
+    List.prototype.contains = function(obj) {
+        var i;
+        for (i = 0; i < this.list.length; i++) {
+            if (this.list[i] === obj) {
+                return true;
+            }
+        }
+
+        return false;
+    };
+
     function Boot() {}
 
     Boot.prototype = {
@@ -20,9 +34,7 @@
                 AGENCY: 1,
                 NO_AGENCY: 2,
 
-                ROAD_TILE: 1,
-                WALL_TILE: 20,
-                ROADBLOCK_TILE: 141,
+                ROADBLOCK_TILE: 37,
 
                 GRID_SIZE: 32,
 
@@ -32,6 +44,20 @@
                 RIGHT: {x: 1, y: 0, anim: 'right', idleAnim: 'idle-right'},
 
                 font: 'Kingthings'
+            };
+
+            this.game.constants.Tiles = {
+                5: new List([this.game.constants.LEFT, this.game.constants.RIGHT]),
+                6: new List([this.game.constants.UP, this.game.constants.RIGHT]),
+                7: new List([this.game.constants.UP, this.game.constants.LEFT, this.game.constants.RIGHT, this.game.constants.DOWN]),
+                8: new List([this.game.constants.UP, this.game.constants.DOWN]),
+                13: new List([this.game.constants.UP, this.game.constants.LEFT]),
+                15: new List([this.game.constants.DOWN, this.game.constants.RIGHT]),
+                16: new List([this.game.constants.LEFT, this.game.constants.DOWN]),
+                21: new List([this.game.constants.UP, this.game.constants.RIGHT, this.game.constants.DOWN]),
+                22: new List([this.game.constants.LEFT, this.game.constants.UP, this.game.constants.RIGHT]),
+                23: new List([this.game.constants.LEFT, this.game.constants.DOWN, this.game.constants.RIGHT]),
+                24: new List([this.game.constants.LEFT, this.game.constants.DOWN, this.game.constants.UP])
             };
             this.game.gameState = {
                 xCoord: 1,
