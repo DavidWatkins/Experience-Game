@@ -5,6 +5,7 @@ var fs      = require('fs');
 var favicon = require('serve-favicon');
 var json2csv = require('express-json2csv');
 var bodyParser = require('body-parser');
+var http = require('http');
 
 //DB Code
 var mongo = require('mongodb');
@@ -44,7 +45,7 @@ var SampleApp = function() {
     self.setupVariables = function() {
         //  Set the environment variables we need.
         self.ipaddress = process.env.OPENSHIFT_NODEJS_IP;
-        self.port      = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+        self.port      = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3002;
 
         if (typeof self.ipaddress === "undefined") {
             //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
@@ -260,6 +261,9 @@ var SampleApp = function() {
      *  Start the server.
      */
     self.start = function() {
+        self.app.set('port', self.port);
+        self.app.set('ip', self.ipaddress);
+
         //  Start the app on the specific interface (and port).
         self.app.listen(self.port, self.ipaddress, function() {
             console.log('%s: Node server started on %s:%d ...',
