@@ -2,7 +2,6 @@
 //  OpenShift Walking Node application
 var express = require('express');
 var fs      = require('fs');
-var csv     = require('csv');
 var favicon = require('serve-favicon');
 var json2csv = require('express-json2csv');
 var bodyParser = require('body-parser');
