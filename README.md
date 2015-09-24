@@ -1,4 +1,4 @@
-# Walking in Their Shoes: Poverty in America 
+# Walking in Their Shoes: Poverty in America
 
 TODO: Write a project description
 
@@ -8,11 +8,11 @@ TODO: Write a project description
 To download this game one must have the following software installed:
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.org/)
 
 Other dependencies that come when you run npm install
 - [Bower](http://bower.io/)
 - [Gulp](http://gulpjs.com/)
-- [yargs](https://www.npmjs.com/package/yargs)
 
 ### Compilation
 - Run the command "Git clone https://github.com/DavidWatkins/Walking-in-Their-Shoes.git" in a directory you want to download the project to
@@ -21,16 +21,92 @@ Other dependencies that come when you run npm install
 - Run "bower install"
 - Run "gulp build"
 - The entire project will now be contained in the "Walking-in-Their-Shoes/dist" folder
+- Make sure you have mongo set up in your computer (see MongoDB link above)
 
 ## Usage
 
-To run the web server, execute the following command: "gulp connect". This will open up a basic http server with node. By default this will open the web server using port 80, if you want to open the web server on a different port use: "gulp connect --port <port>". The game is then accessible from the url: [localhost](localhost)
-If you want to use your own custom web server such as Apache, copy the contents from dist into your web folder and point your web server to look in that directory
-
+To run the application:
+- run "node server.js"
+- Connect to 127.0.0.1/#NA for no agency and 127.0.0.1/#AG for agency
+- Connect to 127.0.0.1/getData to receive all records in the mongoDB
 
 ## Contributing
 
-We are currently not accepting custom submissions at this time
+In order to make changes to the scenarios shown in the game, modify the file located at 'src/assets/data/gameData.json'<br>
+The format is as follows:<br>
+```
+{
+  "Intro": [
+	{
+	  "agencyText": "",
+    "noAgencyText": "",
+	  "footnotes": [ "List these out to get a list of sources" ]
+	},
+	{
+	  "agencyText": "this is shown when there is agency",
+	  "noAgencyText": "this is shown at no agency",
+	  "continueText": ""
+	},
+	{
+	  "text": "This is shown regardless of agency",
+	  "continueText": "This is optional"
+	}
+  ],
+  "Final": {
+	   "text": "This will be shown at the end"
+  },
+  "scenarios": [
+	{
+	  "id": 1,
+	  "agency": {
+		"Intro": "",
+		"Choices": {
+		  "msg": "You have two options:",
+		  "opt1": "Option 1",
+		  "opt2": "",
+		  "final": ""
+		},
+		"Outcome1": {
+		  "msg": "",
+		  "health": -1,
+		  "mentalHealth": 1,
+		  "childHealth": -1
+		},
+		"Outcome2": {
+		  "msg": "",
+		  "health": -1,
+		  "mentalHealth": -1,
+		  "childHealth": -1
+		},
+		"Stats": {
+		  "text": "",
+		  "footnotes": ""
+		}
+	  },
+	  "no-agency": {
+		"Intro": "",
+		"Choices": "",
+		"Outcome1": {
+		  "msg": "",
+		  "health": -1,
+		  "mentalHealth": -1,
+		  "childHealth": -1
+		},
+		"Outcome2": {
+		  "msg": "",
+		  "health": -1,
+		  "mentalHealth": -1,
+		  "childHealth": -1
+		},
+		"Stats": {
+		  "text": "",
+		  "footnotes": ""
+		}
+	  }
+	}
+  ]
+}
+```
 
 ## History
 
