@@ -1,15 +1,24 @@
 {
   "name": "walking-in-their-shoes",
+  "version": "1.0.0",
   "description": "Expressing the struggle of living in poverty through a web game",
   "readme": "README.md",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "David Watkins",
+    "email": "davidw@tkins.me",
+    "url": "http://davidw.atkins.me/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/DavidWatkins/Walking-in-Their-Shoes.git"
   },
-  "version": "0.0.0",
-  "dependencies": {},
-  "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "bower": "*",
     "del": "*",
     "gulp": "*",
@@ -26,12 +35,14 @@
     "gulp-watch": "*",
     "lodash": "*",
     "tiny-lr": "*",
-    "yargs": "^3.22.2"
+    "express": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "serve-favicon": "~2.2.1",
+    "express-json2csv": "*",
+    "body-parser": "*"
   },
-  "scripts": {
-    "post-install": "node ./node_modules/bower/bin/bower install",
-    "start": "node ./node_modules/gulp/bin/gulp.js",
-    "build": "node ./node_modules/gulp/bin/gulp.js build",
-    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
-  }
+  "license": "MIT",
+  "private": true,
+  "main": "server.js"
 }

@@ -1,21 +1,24 @@
-(function() {
+(function () {
     'use strict';
 
     function Game() {
-        this.map = null;
         this.player = null;
+        this.map = null;
+        this.GroundLayer = null;
+        this.player = null;
+        this.ObjectLayer = null;
+        this.cursors = null;
     }
 
     Game.prototype = {
 
-        //INIT
-        init: function () {
-            this.game.physics.startSystem(Phaser.Physics.ARCADE);
-        },
-
         //CREATE
         create: function () {
-            if (!this.game.bgMusic.isPlaying){  this.game.bgMusic.play('',0,1,true); }
+
+            if(this.game.information.scenarios.length === 0 || this.game.gameState.usedScenarios >= this.game.constants.NUM_SCENARIOS) {
+                this.game.state.start('endgame');
+                return;
+            }
 
             //Initialize Map
             this.map = this.add.tilemap('map');
@@ -25,6 +28,7 @@
             this.ObjectLayer = this.map.createLayer('Objects');
             this.updateTiles();
 
+            //Add a new player
             this.player = new Player(this.game, this.game.gameState.color, this.map);
             this.game.gameState.player = this.player;
             this.game.add.existing(this.player);
@@ -32,42 +36,37 @@
             //Add Player Controls
             this.cursors = this.input.keyboard.createCursorKeys();
 
-            this.addRain();
-            this.updateHealthbars();
+            //Add Rain Emitter
+            addRainEmitter(this.game);
+
+            this.addHealthBars();
         },
-        updateTiles: function() {
-            for(var tileI in this.game.gameState.tiles) {
-                var tile = this.game.gameState.tiles[tileI];
-                this.map.removeTile(tile.x, tile.y, this.ObjectLayer);
+
+        updateTiles: function () {
+            var tileI,
+                currentTile;
+            for (tileI in this.game.gameState.tiles) {
+                if (this.game.gameState.tiles.hasOwnProperty(tileI)) {
+                    currentTile = this.game.gameState.tiles[tileI];
+                    this.map.removeTile(currentTile.x, currentTile.y, this.ObjectLayer);
+                }
             }
         },
 
-        addRain: function() {
-            var rainEmitter = this.game.add.emitter(this.game.world.centerX, 0, 400);
-
-            rainEmitter.width = this.game.world.width;
-            //rainEmitter.angle = 30; // uncomment to set an angle for the rain.
-
-            rainEmitter.makeParticles('rain');
-
-            rainEmitter.minParticleScale = 0.1;
-            rainEmitter.maxParticleScale = 0.5;
-
-            rainEmitter.setYSpeed(300, 500);
-            rainEmitter.setXSpeed(-5, 5);
-
-            rainEmitter.minRotation = 0;
-            rainEmitter.maxRotation = 0;
-
-            rainEmitter.start(false, 1600, 5, 0);
+        addHealthBars: function () {
+            HealthBar(this.game, this.game.gameState.health, 0, 0, 'heartbar', 'Physical Health:');
+            HealthBar(this.game, this.game.gameState.mentalHealth, 10, 0, 'smilebar', 'Mental Health:');
+            HealthBar(this.game, this.game.gameState.childHealth, 20, 0, 'bearbar', 'Child\'s Health:');
         },
 
         //UPDATE
         update: function () {
-            if(this.player.hasHitRoadBlock(this.ObjectLayer)) {
-                this.switchToScenario();
+            if(this.player) {
+                if(this.player.hasHitRoadBlock(this.ObjectLayer)) {
+                    this.switchToScenario();
+                }
+                this.checkKeys();
             }
-            this.checkKeys();
         },
         switchToScenario: function() {
             this.game.gameState.tiles.push({x: this.game.gameState.xCoord, y: this.game.gameState.yCoord});
@@ -77,23 +76,19 @@
         checkKeys: function () {
 
             if(!this.player.isMoving) {
-                if (this.cursors.left.isDown && this.player.canMove(this.game.constants.LEFT)) {
-                    this.player.move(this.game.constants.LEFT, this.cursors.left);
+                if (this.cursors.left.isDown && this.player.canMove("LEFT")) {
+                    this.player.move(this.game.constants.Directions.LEFT, this.cursors.left);
                 }
-                else if (this.cursors.right.isDown && this.player.canMove(this.game.constants.RIGHT)) {
-                    this.player.move(this.game.constants.RIGHT, this.cursors.right);
+                else if (this.cursors.right.isDown && this.player.canMove("RIGHT")) {
+                    this.player.move(this.game.constants.Directions.RIGHT, this.cursors.right);
                 }
-                else if (this.cursors.up.isDown && this.player.canMove(this.game.constants.UP)) {
-                    this.player.move(this.game.constants.UP, this.cursors.up);
+                else if (this.cursors.up.isDown && this.player.canMove("UP")) {
+                    this.player.move(this.game.constants.Directions.UP, this.cursors.up);
                 }
-                else if (this.cursors.down.isDown && this.player.canMove(this.game.constants.DOWN)) {
-                    this.player.move(this.game.constants.DOWN, this.cursors.down);
+                else if (this.cursors.down.isDown && this.player.canMove("DOWN")) {
+                    this.player.move(this.game.constants.Directions.DOWN, this.cursors.down);
                 }
             }
-        },
-
-        updateHealthbars: function() {
-
         },
 
         onInputDown: function () {

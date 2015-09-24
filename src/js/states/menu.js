@@ -5,36 +5,25 @@
 
     Menu.prototype = {
         create: function () {
-            var style = {
-                font: this.game.constants.font,
-                fontSize: 30,
-                fill: '#ffffff',
-                align: 'center'
-            };
-            var text = this.add.text(this.game.width * 0.5, this.game.height * 0.3, this.game.constants._sTitle, style);
+            var style = new Style(this.game.constants.FONT, 30);
+            var text = this.add.text(this.game.width * 0.5, this.game.height * 0.3, this.game.constants.Title, style);
             text.anchor.set(0.5);
 
-            var style2 = {
-                font: this.game.constants.font,
-                fontSize: 18,
-                fill: '#ffffff',
-                align: 'center'
+            this.game.add.existing(new TextInput(this.game, 0.5, 0.9, 'Click here to continue...', 18, this.openModal));
+        },
+
+        openModal: function() {
+            var self = this;
+            window["CloseModalWindow"] = function() {
+                var id = document.getElementById("idInput").value;
+                console.log(id);
+                if(!id)
+                    return;
+                self.game.gameState.returnData.id = id;
+                $('#idModal').modal('hide');
+                self.game.state.start('intro');
             };
-            this.game.add.existing(new TextInput(this.game, 0.5, 0.6, 'Agency Condition', 18, this.agency));
-            this.game.add.existing(new TextInput(this.game, 0.5, 0.7, 'No Agency Condition', 18, this.noAgency));
-        },
-
-        update: function () {
-
-        },
-
-        noAgency: function() {
-            this.game.gameState.isAgency = false;
-            this.game.state.start('color_chooser');
-        },
-        agency: function() {
-            this.game.gameState.isAgency = true;
-            this.game.state.start('color_chooser');
+            $("#idModal").modal('show');
         }
     };
 

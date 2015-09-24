@@ -10,10 +10,8 @@
 
     Color_Chooser.prototype = {
         create: function () {
-            if (!this.game.bgMusic.isPlaying){  this.game.bgMusic.play('',0,1,true); }
             var text = this.add.text(this.game.width * 0.5, this.game.height * 0.2,
-                'Choose character color', {font: '30px ' + this.game.constants.font, fill: '#ffffff', align: 'center'
-                });
+                'Choose character color', new Style(this.game.constants.FONT, 30));
             text.anchor.set(0.5);
 
             var players = [

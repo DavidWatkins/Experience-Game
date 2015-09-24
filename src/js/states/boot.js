@@ -1,87 +1,81 @@
+/**
+ * @author David Watkins <djw2146@columbia.edu>
+ * @license MIT
+ */
 (function () {
     'use strict';
 
-    function List(list) {
-        this.list = list;
-    }
-    List.prototype.contains = function(obj) {
-        var i;
-        for (i = 0; i < this.list.length; i++) {
-            if (this.list[i] === obj) {
-                return true;
-            }
-        }
-
-        return false;
-    };
-
-    function Boot() {}
+    /**
+     * Initial game state to initialize game state and scale the game
+     * @constructor
+     */
+     function Boot() {}
 
     Boot.prototype = {
+
+        /**
+         * Load the preloader gif for the preload state
+         * Load the config file for the game
+         */
         preload: function () {
             this.load.image('preloader', 'assets/preloader.gif');
+            this.load.json('config', 'assets/data/config.json');
         },
 
+        /**
+         * Run by phaser upon ininitalization of the game state
+         */
         create: function () {
-            // configure game
-            this.game.input.maxPointers = 1;
-            this.game.constants = {
-                _WIDTH: 960,
-                _HEIGHT: 896,
-
-                _sTitle: 'Walking in Their Shoes: Poverty in America',
-
-                AGENCY: 1,
-                NO_AGENCY: 2,
-
-                ROADBLOCK_TILE: 37,
-
-                GRID_SIZE: 32,
-
-                UP: {x: 0, y: -1, anim: 'up', idleAnim: 'idle-up'},
-                DOWN: {x: 0, y: 1, anim: 'down', idleAnim: 'idle-down'},
-                LEFT: {x: -1, y: 0, anim: 'left', idleAnim: 'idle-left'},
-                RIGHT: {x: 1, y: 0, anim: 'right', idleAnim: 'idle-right'},
-
-                font: 'Kingthings'
-            };
-
-            this.game.constants.Tiles = {
-                5: new List([this.game.constants.LEFT, this.game.constants.RIGHT]),
-                6: new List([this.game.constants.UP, this.game.constants.RIGHT]),
-                7: new List([this.game.constants.UP, this.game.constants.LEFT, this.game.constants.RIGHT, this.game.constants.DOWN]),
-                8: new List([this.game.constants.UP, this.game.constants.DOWN]),
-                13: new List([this.game.constants.UP, this.game.constants.LEFT]),
-                15: new List([this.game.constants.DOWN, this.game.constants.RIGHT]),
-                16: new List([this.game.constants.LEFT, this.game.constants.DOWN]),
-                21: new List([this.game.constants.UP, this.game.constants.RIGHT, this.game.constants.DOWN]),
-                22: new List([this.game.constants.LEFT, this.game.constants.UP, this.game.constants.RIGHT]),
-                23: new List([this.game.constants.LEFT, this.game.constants.DOWN, this.game.constants.RIGHT]),
-                24: new List([this.game.constants.LEFT, this.game.constants.DOWN, this.game.constants.UP])
-            };
-            this.game.gameState = {
-                xCoord: 1,
-                yCoord: 1,
-                scenarios: [],
-                usedScenarios: [],
-                startTime: null,
-                isAgency: true,
-                tiles: [],
-
-                health: 100,
-                mentalHealth: 100,
-                childHealth: 100
-            };
-
-            this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-            this.game.scale.minWidth =  this.game.constants._WIDTH;
-            this.game.scale.minHeight = this.game.constants._HEIGHT;
-            this.game.scale.maxWidth = this.game.constants._WIDTH;
-            this.game.scale.maxHeight = this.game.constants._HEIGHT;
-            this.game.scale.pageAlignHorizontally = true;
+            this.initializeGameState();
+            this.scaleGame();
+            // this.addTransition();
             this.game.state.start('preloader');
         },
 
+        /**
+         * The game state will allow states to share information between each other
+         * xCoord, yCoord are used for player location
+         * scenarios are loaded in preloader (see assets/data/gameData.json)
+         * The data to be recorded will be pushed to a web server at the end of the game
+         * The player statuses have no impact on the game and are used for drawing health bars
+         */
+        initializeGameState: function () {
+            this.game.input.maxPointers = 1;
+            this.game.constants = this.game.cache.getJSON('config');
+
+            this.game.gameState = {
+                //Player location
+                xCoord: 1,
+                yCoord: 1,
+                scenarios: [],
+
+                //Data to be recorded
+                usedScenarios: 0,
+                startTime: new Date(),
+                tiles: [],
+
+                //Player status
+                health: 1,
+                mentalHealth: 1,
+                childHealth: 1
+            };
+        },
+
+        /**
+         * Sets the game width and height to the values loaded in config.json
+         */
+        scaleGame: function () {
+            this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+            this.game.scale.minWidth =  this.game.constants.WIDTH;
+            this.game.scale.minHeight = this.game.constants.HEIGHT;
+            this.game.scale.maxWidth = this.game.constants.WIDTH;
+            this.game.scale.maxHeight = this.game.constants.HEIGHT;
+            this.game.scale.pageAlignHorizontally = true;
+        },
+
+        /**
+         * Uses the phaser transition plugin to add transition animations
+         */
         addTransition: function() {
             this.game.transitionPlugin = this.game.plugins.add(Phaser.Plugin.StateTransition);
 
@@ -103,4 +97,3 @@
     window['walking-in-their-shoes'] = window['walking-in-their-shoes'] || {};
     window['walking-in-their-shoes'].Boot = Boot;
 }());
-
