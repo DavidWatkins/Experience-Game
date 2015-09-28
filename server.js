@@ -139,7 +139,7 @@ var SampleApp = function() {
                 }
 
                 var columns = [{
-                    prop: 'id',
+                    prop: 'qualtricsID',
                     label: 'Qualtrics ID'
                 }, {
                     prop: 'agencyType',

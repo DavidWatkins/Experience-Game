@@ -1,32 +1,31 @@
 {
   "Intro": [
-	{
-	  "agencyText": "Welcome to Walking in Their Shoes: Poverty in America. This is a perspective-taking game, which means the goal of the game is for you to understand the experiences, thoughts, and emotions of a group of people. In this case, you will be walking in the shoes of a poor person. Currently about 45 million Americans are living in poverty (DeNavas-Walt, & Proctor, 2014). Life is hard below the poverty line. You have less access to quality healthcare, education, food, and air (Mukherjee, 2013). You struggle to pay your bills and put food on the table. This game is meant to help you understand what it is like to live in poverty.",
-	  "noAgencyText": "Welcome to Walking in Their Shoes: Poverty in America. This is a perspective-taking game, which means the goal of the game is for you to understand the experiences, thoughts, and emotions of a group of people. In this case, you will be walking in the shoes of a poor person. Currently about 45 million Americans are living in poverty (DeNavas-Walt, & Proctor, 2014). Life is hard below the poverty line. You have less access to quality healthcare, education, food, and air (Mukherjee, 2013). You struggle to pay your bills and put food on the table. This game is meant to help you understand what it is like to live in poverty.",
-	  "footnotes": [
-		"DeNavas-Walt, C., & Proctor, B. D. (2014). Income and poverty in the United States: 2013, current population reports. US Department of Commerce, Economics and Statistics Administration, US Census Bureau. Washington, DC: U.S. Government Printing Office. ",
-		"Mukherjee, S. (July 30, 2013). Four ways that poverty hurts Americans� long-term health. ThinkProgress. Retrieved from: http://thinkprogress.org/health/2013/07/30/2381471/four-ways-poverty-impacts-americans-health/",
-		"U.S Census Bureau Social, Economic, and Housing Statistics Division: Poverty. (2015). Poverty thresholds by size of family and number of children [Data file]. Retrieved from https://www.census.gov/hhes/www/poverty/data/threshld/index.html"
-	  ]
-	},
-	{
-	  "agencyText": "In this game, you will travel through a maze designed to look like a cityscape. At various points in the maze you will run into roadblocks. To continue through the maze, you will have to click on the roadblock, which represents a conflict you must resolve. After the conflict is presented to you, you will choose what action you want to take. Then you will see the outcomes of that choice. You will be able to keep track of how well you�re doing by viewing the health bar at the top of the screen. The health bar tracks your mental and physical health as well as your child�s well-being.",
-	  "noAgencyText": "In this game, you will travel through a maze designed to look like a cityscape. At various points in the maze you will run into roadblocks. To continue through the maze, you will have to click on the roadblock, which represents a conflict you must resolve. Then you will see the outcomes of that choice. After the conflict is presented to you, the game will randomly choose which action to take. Then you will see the outcomes of that choice. You will be able to keep track of how well you�re doing by viewing the health bar at the top of the screen. The health bar tracks your mental and physical health as well as your child�s well-being.",
-	  "continueText": "Click �continue� to put on the shoes of a person living in poverty: "
-	},
-	{
-	  "text": "Imagine the following scenario and think about how you would feel and think in this situation. You are a single parent of a ten year old child, Sam.  Your spouse left you two years ago and since then you�ve been struggling to make ends meet. You live in a small town in the Northeast United States. You make $16,317 a year (meeting the federal government�s definition for poverty; U.S Census Bureau, 2015) working at a local factory that manufactures aluminum foil/ as a janitor at a local elementary school/ as a cashier at a local supermarket.  You and Sam have a one-bedroom apartment on the edge of town and thankfully you have a car so you�re able to drive yourself to work. Because you work long hours, Sam attends both before- and after-school care.",
-	  "continueText": "Pick a color for your avatar and then click �begin� to start the game."
-	}
-  ],
+  	{
+  	  "text": "Welcome to Walking in Their Shoes: Poverty in America. This is a perspective-taking game, which means the goal of the game is for you to understand the experiences, thoughts, and emotions of a group of people. /nIn this case, you will be walking in the shoes of a poor person. Currently about 45 million Americans are living in poverty [1]. Poor people in America have less access to quality healthcare, education, and food [2]. /nThis game is meant to help you understand what it is like to live in poverty.",
+  	  "footnotes": [
+      "DeNavas-Walt, C., & Proctor, B. D. (2014). Income and poverty in the United States: 2013, current population reports. US Department of Commerce, Economics and Statistics Administration, US Census Bureau. Washington, DC: U.S. Government Printing Office. ",
+  		"Mukherjee, S. (July 30, 2013). Four ways that poverty hurts Americans' long-term health. ThinkProgress. Retrieved from: http://thinkprogress.org/health/2013/07/30/2381471/four-ways-poverty-impacts-americans-health/"]
+
+  	},
+  	{
+  	  "agencyText": "In this game, you will play the role of a single parent living below the poverty line. /nYou will travel through a maze designed to look like a cityscape. At various points in the maze you will run into roadblocks. To continue through the maze, you will have to click on it. Each roadblock represents a difficult scenario that people living in poverty often face. /nAfter the scenario is presented to you, you will choose what action you want to take. Then you will see the outcomes of that choice. At the end of each scenario you will get some background information on that scenario's topic (e.g., transportation). /nThe health bar at the top of the screen tracks your mental and physical health (smiley faces and hearts, respectively) as well as your child's well-being (teddy bears); you gain or lose health depending on which choice you made. ",
+  	  "noAgencyText": "In this game, you will observe the life of a single parent living below the poverty line. You will travel through a maze designed to look like a cityscape. At various points in the maze you will run into roadblocks. To continue through the maze, you will have to click on it. Each roadblock represents a difficult scenario that people living in poverty often face. /nEach scenario description explains what the specific challenge is, how that challenge is overcome, and the consequences you face as a result of that challenge. At the end of each scenario you will get some background information on that scenario's topic (e.g., transportation). /nThe health bar at the top of the screen tracks your mental and physical health (smiley faces and hearts, respectively) as well as your child's well-being (teddy bears); you gain or lose health depending on the outcomes of the scenarios. ",
+  	  "continueText": "Click anywhere on the screen to put on the shoes of a person living in poverty: "
+  	},
+  	{
+  	  "text": "Visualize the following scenario and imagine how you would feel and think in this situation. /nYou are a single parent of a seven year old child, Sam.  Your spouse died two years ago and since then you've been struggling to make ends meet. You live in a small town in the Northeast United States. You make $16,317 a year (meeting the federal government's definition for poverty; U.S Census Bureau, 2015) working five days a week.  You and Sam have a one-bedroom apartment on the edge of town and thankfully you have a car so you're able to drive yourself to work. Because you work long hours, Sam attends both before- and after-school care. ",
+  	  "continueText": "Click anywhere on the screen to begin the game.",
+      "footnotes": ["U.S Census Bureau Social, Economic, and Housing Statistics Division: Poverty. (2015). Poverty thresholds by size of family and number of children [Data file]. Retrieved from https://www.census.gov/hhes/www/poverty/data/threshld/index.html"]
+  	}
+    ],
   "Final": {
-	"text": "You�ve made it to the end of the maze. You have gotten a glimpse of what life is like when you�re living in poverty. Thank you for playing. "
+	"text": "You've made it to the end of the game and you now better understand what it is like to live below the poverty line. You may have found this game frustrating or upsetting; that is to be expected. Note that the scenarios and outcomes described in this game were based off of real people's experiences with poverty. Great effort was put into making the game a realistic representation of poverty in America.  "
   },
   "scenarios": [
 	{
 	  "id": 1,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "Sam comes home today with a flyer stating that next Monday his school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can't make it because of work. /nSam pouts, /“But all the other kids’ parents will be there! And I want you to see how good my skit is. You never come to my stuff. Can't you ever just take the day off?/” You sigh. ",
 		"Choices": {
 		  "msg": "You have two options:",
 		  "opt1": "Attend Parent's Day and miss work",
@@ -34,472 +33,473 @@
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to go to brunch. It's worth missing half a day of work to see that smile on Sam's face and watch him perform in his skit. You let your boss know you'll be taking a half-day that Monday and you end up having a lovely time at the brunch. /nBut because you missed work, your paycheck that week is much lower and you go without lunch for two days so you have enough money for Sam's dinners. Working hungry means you're tired and less productive; your boss warns you to step it up or he will report you to his supervisor.  ",
 		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
+		  "mentalHealth": -1,
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to skip brunch. You're living paycheck to paycheck and you just can't afford to lose half a day's pay. Sam is disappointed you can't come and on Monday night he is quieter than usual and doesn't eat all of his dinner. /“I wish you could have come to school today. I did a really good job in my skit./” You sigh, knowing that nothing you say will make it better, /“I know Sam, I really wish I could have come too./” ",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nWhen parents are involved in their children's schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems [1]. However, children living below the poverty line are much less likely to have their parents involved at school [2], most likely because the parents are busy struggling to provide for their child's basic needs. ",
+		  "footnotes": "[1] Henderson, A. T., and Berla, N. (1994). A new generation of evidence: The family is critical to student achievement. Washington, DC: National Committee for Citizens in Education /n[2] Noel, A., Stark, P., Redford, J., & Zukerberg, A. (2013). Parent and family involvement in education, from the National Household Educations Surveys Program of 2012 (NCES 2013-028), Washington, DC: U.S. Department of Education, National Center for Education Statistics. Table 2. Available at: http://nces.ed.gov/pubs2013/2013028.pdf"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "Sam comes home today with a flyer stating that next Monday his school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can't make it because of work. /nSam pouts, /“But all the other kids’ parents will be there! And I want you to see how good my skit is. You never come to my stuff. Can't you ever just take the day off?/” You sigh.  ",
 		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to go to brunch. It's worth missing half a day of work to see that smile on Sam's face and watch him perform in his skit. You let your boss know you'll be taking a half-day that Monday and you end up having a lovely time at the brunch. /nBut because you missed work, your paycheck that week is much lower and you go without lunch for two days so you have enough money for Sam's dinners. Working hungry means you're tired and less productive; your boss warns you to step it up or he will report you to his supervisor.  ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to skip brunch. You're living paycheck to paycheck and you just can't afford to lose half a day's pay. Sam is disappointed you can't come and on Monday night he is quieter than usual and doesn't eat all of his dinner. /“I wish you could have come to school today. I did a really good job in my skit./” You sigh, knowing that nothing you say will make it better, /“I know Sam, I really wish I could have come too./”",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems [1]. However, children living below the poverty line are much less likely to have their parents involved at school [2], most likely because the parents are busy struggling to provide for their child’s basic needs. ",
+		  "footnotes": "[1] Henderson, A. T., and Berla, N. (1994). A new generation of evidence: The family is critical to student achievement. Washington, DC: National Committee for Citizens in Education /n[2] Noel, A., Stark, P., Redford, J., & Zukerberg, A. (2013). Parent and family involvement in education, from the National Household Educations Surveys Program of 2012 (NCES 2013-028), Washington, DC: U.S. Department of Education, National Center for Education Statistics. Table 2. Available at: http://nces.ed.gov/pubs2013/2013028.pdf"
 		}
 	  }
 	},
 	{
 	  "id": 2,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "You wake up this morning feeling absolutely awful. Pounding headache, fever, nausea, the works. You take some Advil while getting Sam ready for school, but it doesn't really help. /nAfter dropping him off at his before-school program, you sit down for a minute to collect yourself. Your head throbs and every bone in your body aches. You're running a temp of 100° and yet you can't stop shivering.  ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Call in sick and take a day to recuperate ",
+		  "opt2": "Go to work and hope the Advil kicks in soon",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
+		  "msg": "You decide to call in sick.  You know if you went into work, you wouldn't be as productive or effective and it would take you longer to get better. You call your boss to let him know you're not coming in; he reminds you that because you don't have paid sick leave, you will lose a day of pay. You nod, /“Yep, I’m aware./” /nAfter spending the day resting and drinking fluids, you feel well enough to go to work tomorrow. But losing 1/5th of your income for that week won't be easy. You start getting another headache just thinking about all the bills due at the end of the week.  ",
+		  "health": 1,
+		  "mentalHealth": -1,
+		  "childHealth": 0
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to go into work. You don’t have paid sick leave and you can't afford to lose 1/5th of this week's income. You pop another couple Advil, pack some crackers for lunch, and head to work. Because you're not feeling well, you're not able to be as productive or effective. Your boss notices and tells you to work faster. /nYou explain that you're sick and that’s why your work is suffering; he says if you're sick you should be at home so you're not infecting your fellow workers. You lie and say it's not that bad so he won't send you home. /nBecause you can't take the time to rest, it takes longer for you to fight off the bug- you're sick and your performance suffers for the next week. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nBecause the US doesn't federally mandate paid sick leave for all workers [1], 40% of workers (80% of which are low-income [2]) do not have paid sick leave. For these workers, it's either work sick (possibly making the sickness worse or passing it on to coworkers) or lose pay. In one survey, 90% of workers reported going to work while sick [3]. ",
+		  "footnotes": "[1] U.S Department of Labor. (n.d). Work hours: Sick leave. Retrieved from http://www.dol.gov/dol/topic/workhours/sickleave.htm /n[2] National Partnership for Women and Families. (2015). Quick facts. Retrieved from http://www.paidsickdays.org/research-resources/quick-facts.html#.Vd9cyPZViko /n [3] Lucas, S. (2013, October 23). Ninety percent of workers come to work when sick. CBS Money Watch. Retrieved from http://www.cbsnews.com/news/90-percent-of-workers-come-to-work-when-sick/"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "You wake up this morning feeling absolutely awful. Pounding headache, fever, nausea, the works. You take some Advil while getting Sam ready for school, but it doesn't really help. /nAfter dropping him off at his before-school program, you sit down for a minute to collect yourself. Your head throbs and every bone in your body aches. You're running a temp of 100° and yet you can't stop shivering.  ",
+		"Choices": "You have two options here: you could call in sick and take a day to recuperate or go to work and hope the Advil kicks in soon. You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
+		  "msg": "You decide to call in sick.  You know if you went into work, you wouldn't be as productive or effective and it would take you longer to get better. You call your boss to let him know you're not coming in; he reminds you that because you don't have paid sick leave, you will lose a day of pay. You nod, /“Yep, I’m aware./” /nAfter spending the day resting and drinking fluids, you feel well enough to go to work tomorrow. But losing 1/5th of your income for that week won't be easy. You start getting another headache just thinking about all the bills due at the end of the week.  ",
+		  "health": 1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to go into work. You don't have paid sick leave and you can't afford to lose 1/5th of this week’s income. You pop another couple Advil, pack some crackers for lunch, and head to work. Because you’re not feeling well, you're not able to be as productive or effective. Your boss notices and tells you to work faster. /nYou explain that you're sick and that's why your work is suffering; he says if you're sick you should be at home so you're not infecting your fellow workers. You lie and say it's not that bad so he won't send you home. /nBecause you can't take the time to rest, it takes longer for you to fight off the bug- you're sick and your performance suffers for the next week",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nBecause the US doesn't federally mandate paid sick leave for all workers [1], 40% of workers (80% of which are low-income [2]) do not have paid sick leave. For these workers, it's either work sick (possibly making the sickness worse or passing it on to coworkers) or lose pay. In one survey, 90% of workers reported going to work while sick [3]. ",
+		  "footnotes": "[1] U.S Department of Labor. (n.d). Work hours: Sick leave. Retrieved from http://www.dol.gov/dol/topic/workhours/sickleave.htm /n[2] National Partnership for Women and Families. (2015). Quick facts. Retrieved from http://www.paidsickdays.org/research-resources/quick-facts.html#.Vd9cyPZViko /n [3] Lucas, S. (2013, October 23). Ninety percent of workers come to work when sick. CBS Money Watch. Retrieved from http://www.cbsnews.com/news/90-percent-of-workers-come-to-work-when-sick/"
 		}
 	  }
 	},
 	{
 	  "id": 3,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "Your town doesn't have a good public transportation system, so having a car is crucial for your job. Unfortunately, you could only afford a cheap car and the check engine light has been on for a month now. You notice you've having trouble braking so you bring the car to your mechanic who says the brakes most definitely need to be fixed. It will cost you at least $500. That's about as much as your weekly paycheck and you're not sure if you can afford it.",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Pay the $500 (by taking out a small loan)",
+		  "opt2": "Go without a car (and take the bus instead)",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to pay the $500 for new brakes. Your car is too important- it's how you get to work, buy groceries, do errands, and take Sam to school. You go to the bank and take out a loan. When you factor in interest, it could take you up to 6 months to pay off the loan. /nHaving an extra monthly bill won’t be easy; you might need to skip some meals, or an electric or gas bill one month. It's getting colder out- you wonder if you (and Sam) could bear going without heat at night in order to have a lower bill. ",
 		  "health": -1,
-		  "mentalHealth": 1,
+		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to go without a car. $500 is a lot of money- money better spent on groceries or winter clothes for you and Sam. You're able to get $400 for the car at the local junk yard. You use part of the money to buy a monthly bus pass. Unfortunately, the bus doesn't run frequently and isn't very reliable. /nIt takes you an extra hour to get to and from work each day, meaning fewer hours of sleep and more worry. And now you have to pay for a sitter to take Sam to and from school and watch him until you get home in the evening. At least once a week the bus is late and you miss the first hour of work, making your paycheck that week even smaller. ",
 		  "health": -1,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nAccess to reliable and effective public transportation increases people's ability to find employment, buy quality groceries, and attain medical treatment. When you can't afford a car, you depend on public transit to meet your basic needs. /nUnfortunately, most of America's public transportation systems are in serious disrepair; bus stops often do not provide protection from the elements and buses are often overcrowded and unreliable [1].",
+		  "footnotes": "[1] White, G. B. (2015, May 16). Stranded: How America's failed public transportation increases inequality. The Atlantic. Retrieved from http://www.theatlantic.com/business/archive/2015/05/stranded-how-americas-failing-public-transportation-increases-inequality/393419/"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "Your town doesn't have a good public transportation system, so having a car is crucial for your job. Unfortunately, you could only afford a cheap car and the check engine light has been on for a month now. You notice you've having trouble braking so you bring the car to your mechanic who says the brakes most definitely need to be fixed. It will cost you at least $500. That's about as much as your weekly paycheck and you're not sure if you can afford it.",
+		"Choices": "You have two options: pay the $500 (by taking out a small loan) or go without a car (and take the bus instead). You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to pay the $500 for new brakes. Your car is too important- it's how you get to work, buy groceries, do errands, and take Sam to school. You go to the bank and take out a loan. When you factor in interest, it could take you up to 6 months to pay off the loan. /nHaving an extra monthly bill won’t be easy; you might need to skip some meals, or an electric or gas bill one month. It's getting colder out- you wonder if you (and Sam) could bear going without heat at night in order to have a lower bill.  ",
 		  "health": -1,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to go without a car. $500 is a lot of money- money better spent on groceries or winter clothes for you and Sam. You're able to get $400 for the car at the local junk yard. You use part of the money to buy a monthly bus pass. Unfortunately, the bus doesn't run frequently and isn't very reliable. /nIt takes you an extra hour to get to and from work each day, meaning fewer hours of sleep and more worry. And now you have to pay for a sitter to take Sam to and from school and watch him until you get home in the evening. At least once a week the bus is late and you miss the first hour of work, making your paycheck that week even smaller. ",
 		  "health": -1,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nAccess to reliable and effective public transportation increases people's ability to find employment, buy quality groceries, and attain medical treatment. When you can't afford a car, you depend on public transit to meet your basic needs. /nUnfortunately, most of America's public transportation systems are in serious disrepair; bus stops often do not provide protection from the elements and buses are often overcrowded and unreliable [1].",
+		  "footnotes": "[1] White, G. B. (2015, May 16). Stranded: How America's failed public transportation increases inequality. The Atlantic. Retrieved from http://www.theatlantic.com/business/archive/2015/05/stranded-how-americas-failing-public-transportation-increases-inequality/393419/"
 		}
 	  }
 	},
 	{
 	  "id": 4,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "The local community college is offering an accounting class on the weekends. Taking this class would allow you to take on a higher paying job, which would give you and Sam a better life where you wouldn't be living paycheck to paycheck. /nBut the class isn't free: it's two semesters at $500 a semester, and since Sam is only 7 you would have to pay a sitter to watch him while you were in class (about $640 a semester), plus you would need to spend $100 on the textbook. You're not eligible for any scholarships because you are not enrolled in a degree program. ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Find a way to pay for the class",
+		  "opt2": "Decide not to take the class",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to take the class. Sure, it will be difficult financially now, but in the long run it will be worth it. In order to pay your class expenses, you start skimping on groceries, electricity, and heat. Sam is sad you're not around as much on the weekends and that when you are, you're too busy or too tired to spend time with him. /nHe also doesn't like that the house has to be so cold all the time and he can't watch TV anymore. Skipping breakfast and eating ramen for lunch every day to save money leaves you constantly hungry. You often feel weak and have trouble concentrating at work and in class.  ",
 		  "health": -1,
 		  "mentalHealth": 1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
-		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "msg": "You decide not to take the class. While you know it would help you in the long run, in the meantime it would cost you and Sam a great deal financially, physically and emotionally. You can envision it- feeling constantly hungry because you're trying to save money on groceries, always being cold because you're keeping the heat as low as possible, Sam complaining that you're not home ever and that he can't watch his favorite shows on TV anymore. /nIt wouldn’t be fair to either of you, and it’s just not worth it. You continue working your low-wage job and hope that one day things will be better",
+		  "health": 0,
+		  "mentalHealth": 0,
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nLack of access to affordable childcare is a significant issue in the US and is a large driver of poverty.  Affordable childcare allows parents to work longer hours (or at all) and seek out training and education that would help them find higher-paying jobs.  Studies from NYC indicate that childcare is the single greatest expense for low-income families; single parents spend about 58% of their income on it [1]. ",
+		  "footnotes": "[1] Donnelly, T. (2014, November 13). Raising the minimum wage and affordable child care go hand in hand. Talk Poverty. Retrieved from http://talkpoverty.org/2014/11/13/raising-minimum-wage-enough/"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "The local community college is offering an accounting class on the weekends. Taking this class would allow you to take on a higher paying job, which would give you and Sam a better life where you wouldn't be living paycheck to paycheck. /nBut the class isn't free: it's two semesters at $500 a semester, and since Sam is only 7 you would have to pay a sitter to watch him while you were in class (about $640 a semester), plus you would need to spend $100 on the textbook. You're not eligible for any scholarships because you are not enrolled in a degree program.",
+		"Choices": "You have two options: find a way to pay for the class or decide not to take the class.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to take the class. Sure, it will be difficult financially now, but in the long run it will be worth it. In order to pay your class expenses, you start skimping on groceries, electricity, and heat. Sam is sad you're not around as much on the weekends and that when you are, you're too busy or too tired to spend time with him. /nHe also doesn't like that the house has to be so cold all the time and he can't watch TV anymore. Skipping breakfast and eating ramen for lunch every day to save money leaves you constantly hungry. You often feel weak and have trouble concentrating at work and in class. ",
 		  "health": -1,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
-		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "msg": "You decide not to take the class. While you know it would help you in the long run, in the meantime it would cost you and Sam a great deal financially, physically and emotionally. You can envision it- feeling constantly hungry because you're trying to save money on groceries, always being cold because you're keeping the heat as low as possible, Sam complaining that you're not home ever and that he can't watch his favorite shows on TV anymore. /nIt wouldn’t be fair to either of you, and it’s just not worth it. You continue working your low-wage job and hope that one day things will be better. ",
+		  "health": 0,
+		  "mentalHealth": 0,
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nLack of access to affordable childcare is a significant issue in the US and is a large driver of poverty.  Affordable childcare allows parents to work longer hours (or at all) and seek out training and education that would help them find higher-paying jobs.  Studies from NYC indicate that childcare is the single greatest expense for low-income families; single parents spend about 58% of their income on it [1]. ",
+		  "footnotes": "[1] Donnelly, T. (2014, November 13). Raising the minimum wage and affordable child care go hand in hand. Talk Poverty. Retrieved from http://talkpoverty.org/2014/11/13/raising-minimum-wage-enough/"
 		}
 	  }
 	},
 	{
 	  "id": 5,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "It's grocery-shopping day, so you head to your local store, shopping list in hand. You look at food prices and notice that the cheaper foods are of lower quality and tend to be less nutritious (e.g., canned fruit and vegetables, white rice, sugary cereal bars). /nYou know items like fresh fruits and vegetables, meats, high protein cereal bars, and milk would be better for you and Sam, but they're just so expensive. You can't afford to eat like that on a regular basis, even with your monthly allotment of food stamps. ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Buy mainly cheaper and low quality food to save money ",
+		  "opt2": "Buy mainly more expensive and better quality food to keep you and Sam healthy",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to go with the cheaper items. You know it's not as healthy but it's what you can afford right now. You'd rather be full, and have some money to spare than be hungry and have no money to spare. /nSam might not be getting all the vitamins and minerals he needs as a growing child, but at least he is being fed. Low quality food is still food, you tell yourself, and being unhealthy is just the price you'll have to pay for smallest sense of financial security ",
 		  "health": -1,
-		  "mentalHealth": 1,
+		  "mentalHealth":0,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
-		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "msg": "You decide to buy the higher quality food. It will strain your budget for this week, but it's important Sam gets all the vitamins and minerals he needs as a growing child. The joy in his eyes at the sight of fresh strawberries distracts you from the fact that because you weren't able to buy enough food for all of your and Sam's meals you'll probably end up going to bed hungry a few nights this week. ",
+		  "health": 0,
+		  "mentalHealth": 0,
+		  "childHealth": 1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nWhen children do not get proper nutrition, they suffer physically, mentally, and academically. Unfortunately, healthy foods high in nutrients are very expensive [1]. One study revealed that 84% of poor families buy the cheapest food possible so that they can provide enough food for their household, even though they know it's not as healthy [2]. /nEven with food stamps, many poor families still struggle to put food on the table [3]. Food stamps often run out by the middle of the month, forcing families to seek out food pantries and soup kitchens [4].",
+		  "footnotes": "[1] Food Research and Action Center. (2010). Why low-income and food insecure people are vulnerable to overweight and obesity. Retrieved from http://frac.org/initiatives/hunger-and-obesity/why-are-low-income-and-food-insecure-people-vulnerable-to-obesity/ /n[2] Feeding America. (2015). Child hunger. Retrieved from http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/child-hunger/?_ga=1.183759206.1737977941.1440172766 /n[3] Center for Hunger-Free Communities. (2011). The real cost of a healthy diet: 2011. Retrieved from http://www.centerforhungerfreecommunities.org/sites/default/files/pdfs/RCOHD_Report2011-FINAL.pdf /n[4] Gray, S. (2014, January 19). What I learned from a week on food stamps: Paul Ryan couldn’t be any more wrong. Salon. Retrieved from http://www.salon.com/2014/01/19/what_i_learned_from_a_week_on_food_stamps_paul_ryan_couldnt_be_any_more_wrong/"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "It's grocery-shopping day, so you head to your local store, shopping list in hand. You look at food prices and notice that the cheaper foods are of lower quality and tend to be less nutritious (e.g., canned fruit and vegetables, white rice, sugary cereal bars). /nYou know items like fresh fruits and vegetables, meats, high protein cereal bars, and milk would be better for you and Sam, but they're just so expensive. You can't afford to eat like that on a regular basis, even with your monthly allotment of food stamps.  ",
+		"Choices": "You have two options: buy mainly cheaper and low quality food to save money or buy mainly more expensive and better quality food to keep you and Sam healthy.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to go with the cheaper items. You know it's not as healthy but it's what you can afford right now. You'd rather be full, and have some money to spare than be hungry and have no money to spare. /nSam might not be getting all the vitamins and minerals he needs as a growing child, but at least he is being fed. Low quality food is still food, you tell yourself, and being unhealthy is just the price you'll have to pay for smallest sense of financial security  ",
 		  "health": -1,
-		  "mentalHealth": -1,
+		  "mentalHealth": 0,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
-		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "msg": "You decide to buy the higher quality food. It will strain your budget for this week, but it's important Sam gets all the vitamins and minerals he needs as a growing child. The joy in his eyes at the sight of fresh strawberries distracts you from the fact that because you weren't able to buy enough food for all of your and Sam's meals you'll probably end up going to bed hungry a few nights this week. ",
+		  "health": 0,
+		  "mentalHealth": 0,
+		  "childHealth": 1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nWhen children do not get proper nutrition, they suffer physically, mentally, and academically. Unfortunately, healthy foods high in nutrients are very expensive [1]. One study revealed that 84% of poor families buy the cheapest food possible so that they can provide enough food for their household, even though they know it's not as healthy [2]. /nEven with food stamps, many poor families still struggle to put food on the table [3]. Food stamps often run out by the middle of the month, forcing families to seek out food pantries and soup kitchens [4].",
+		  "footnotes": "[1] Food Research and Action Center. (2010). Why low-income and food insecure people are vulnerable to overweight and obesity. Retrieved from http://frac.org/initiatives/hunger-and-obesity/why-are-low-income-and-food-insecure-people-vulnerable-to-obesity/ /n[2] Feeding America. (2015). Child hunger. Retrieved from http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/child-hunger/?_ga=1.183759206.1737977941.1440172766 /n[3] Center for Hunger-Free Communities. (2011). The real cost of a healthy diet: 2011. Retrieved from http://www.centerforhungerfreecommunities.org/sites/default/files/pdfs/RCOHD_Report2011-FINAL.pdf /n[4] Gray, S. (2014, January 19). What I learned from a week on food stamps: Paul Ryan couldn’t be any more wrong. Salon. Retrieved from http://www.salon.com/2014/01/19/what_i_learned_from_a_week_on_food_stamps_paul_ryan_couldnt_be_any_more_wrong/"
 		}
 	  }
 	},
 	{
 	  "id": 6,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "At your yearly check-up yesterday, you mentioned that your stomach's been bothering you a lot recently. You feel sick after every meal; it's affecting your ability to work, and care for Sam. /nUnfortunately, your doctor says there's not a cheap or reliable fix for a sensitive stomach in your case. She recommends you visit a specialist to get extra testing done. However, these tests aren't covered by your insurance. You ask if there's a cheaper option and she says you could take a probiotic pill instead. Your stomach problems will most likely come back though and if they do, you'll need even more expensive treatment in the long run, but you can get away with the pills for now if you really can't afford to see the specialist. ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "See the specialist and fix your stomach problems ",
+		  "opt2": "Buy the pills and hope your stomach doesn’t get any worse",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
+		  "msg": "You decide to see the specialist. It's expensive, but your health is worth it; a cheap fix just won't cut it. You need to work to pay your bills and your work productivity is lower when you're not feeling well. Plus, if something happens to you, who will look after Sam? You see the specialist once a week for four weeks; your co-pay is $50 each time and the tests cost you an extra $400. /nYou have to rely solely on your food stamps for grocery shopping, but it's not enough. You and Sam visit the local homeless shelter for dinner some nights; you feel ashamed that you're not able to provide for Sam by yourself. On the bright side, your stomach problem is now fixed",
+		  "health": 1,
+		  "mentalHealth": -1,
+		  "childHealth": 0
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to buy the probiotic pills. You're barely able to put food on the table as it is- you can't afford to see a specialist. The co-pay would be $50 each time and the tests could cost upwards of $400. The pills are cheap and appear to help, but after a few months they're not as effective and you start getting sharp pains in your abdomen. /nOne night they are so bad you take yourself to the ER. They have to do surgery on your intestines; the trip costs you $800. You can't pay it upfront so you're put on a two-year payment plan. The interest rates are so high you'll end up paying almost double what you originally owed. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nHealth care costs are extremely high in America [1], even for those with health insurance. Most families making more than poverty-level income cannot afford their co-pays; the situation is even worse for low-income families [2].  Some people have to resort to avoiding medical care altogether. /nIn 2013, 37% of adults went without recommended medical care because they couldn't afford it [1]. Often, these people end up in the ER due to complications from not being able to afford preventive care. ER's are federally mandated to treat all patients regardless of ability to pay and often allow patients to pay bills on a payment plan. ER visits are still more costly than preventive care in the long run [3].",
+		  "footnotes": "[1] Schoen, C., Osborn, R., Squires, D., & Doty, M. M. (2013). Access, affordability, and insurance complexity are often worse in the United States compared to ten other countries. Health Affairs, 32(12), 2205-2215 /n[2] Claxton, G., Rae, M., & Panchal, N. (2015). Consumer Assets and patient cost sharing. Retrieved from http://kff.org/health-costs/issue-brief/consumer-assets-and-patient-cost-sharing/ /n[3] Meisel, Z. & Pines, J. (2008, September 12). The allure of the one-stop shop: The real reasons why people go to the E.R when they shouldn't. Slate. Retrieved from http://www.slate.com/articles/health_and_science/medical_examiner/2008/09/the_allure_of_the_onestop_shop.html"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "At your yearly check-up yesterday, you mentioned that your stomach's been bothering you a lot recently. You feel sick after every meal; it's affecting your ability to work, and care for Sam. /nUnfortunately, your doctor says there's not a cheap or reliable fix for a sensitive stomach in your case. She recommends you visit a specialist to get extra testing done. However, these tests aren't covered by your insurance. You ask if there's a cheaper option and she says you could take a probiotic pill instead. Your stomach problems will most likely come back though and if they do, you'll need even more expensive treatment in the long run, but you can get away with the pills for now if you really can't afford to see the specialist.  ",
+		"Choices": "You have two options: see the specialist and fix your stomach problems or buy the pills and hope your stomach doesn’t get any worse.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
+		  "msg": "You decide to see the specialist. It's expensive, but your health is worth it; a cheap fix just won't cut it. You need to work to pay your bills and your work productivity is lower when you're not feeling well. Plus, if something happens to you, who will look after Sam? You see the specialist once a week for four weeks; your co-pay is $50 each time and the tests cost you an extra $400. /nYou have to rely solely on your food stamps for grocery shopping, but it's not enough. You and Sam visit the local homeless shelter for dinner some nights; you feel ashamed that you're not able to provide for Sam by yourself. On the bright side, your stomach problem is now fixed. ",
+		  "health": 1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to buy the probiotic pills. You're barely able to put food on the table as it is- you can't afford to see a specialist. The co-pay would be $50 each time and the tests could cost upwards of $400. The pills are cheap and appear to help, but after a few months they're not as effective and you start getting sharp pains in your abdomen. /nOne night they are so bad you take yourself to the ER. They have to do surgery on your intestines; the trip costs you $800. You can't pay it upfront so you're put on a two-year payment plan. The interest rates are so high you'll end up paying almost double what you originally owed. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nHealth care costs are extremely high in America [1], even for those with health insurance. Most families making more than poverty-level income cannot afford their co-pays; the situation is even worse for low-income families [2].  Some people have to resort to avoiding medical care altogether. /nIn 2013, 37% of adults went without recommended medical care because they couldn't afford it [1]. Often, these people end up in the ER due to complications from not being able to afford preventive care. ER's are federally mandated to treat all patients regardless of ability to pay and often allow patients to pay bills on a payment plan. ER visits are still more costly than preventive care in the long run [3].",
+		  "footnotes": "[1] Schoen, C., Osborn, R., Squires, D., & Doty, M. M. (2013). Access, affordability, and insurance complexity are often worse in the United States compared to ten other countries. Health Affairs, 32(12), 2205-2215 /n[2] Claxton, G., Rae, M., & Panchal, N. (2015). Consumer Assets and patient cost sharing. Retrieved from http://kff.org/health-costs/issue-brief/consumer-assets-and-patient-cost-sharing/ /n[3] Meisel, Z. & Pines, J. (2008, September 12). The allure of the one-stop shop: The real reasons why people go to the E.R when they shouldn't. Slate. Retrieved from http://www.slate.com/articles/health_and_science/medical_examiner/2008/09/the_allure_of_the_onestop_shop.html"
 		}
 	  }
 	},
 	{
 	  "id": 7,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "It's been a year since you last did major clothes shopping for Sam, and most of his clothes have tears or stains or are too small for him. It's time to go shopping. You tell Sam you're taking him clothes shopping and his eyes light up. /n/“Can we go to the mall to get the clothes? I saw these cool Avengers shirts there and I really want to get them! All of my friends have Avengers clothes and they make fun of me `cause I don’t have any. Please?/” You frown. /“I was planning on going to the thrift store./” Sam’s face falls. /“I don’t like it there; the clothes smell funny and they won't have any Avengers stuff. I want something new for once!/” His bottom lip quivers, /“Please?/” he begs.",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Go to the mall to get Sam's clothes to make Sam happy",
+		  "opt2": "Save money by going to the thrift store",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
+		  "msg": "You decide to go to the mall and let Sam have some nice clothes for once. He's a quiet kid and you know that having a supportive friend group is important for kids to learn social skills. You don’t want him to feel like an /“outcast/” because of his clothes. /nBecause you can't really afford these clothes, you use your credit card to buy them. Now you've got credit card debt to pay off every month on top of all of your other bills. The repairs on the hot water heater will have to wait another month or two - you grimace at the prospect of daily cold showers. ",
+		  "health": 0,
+		  "mentalHealth": -1,
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to go to the thrift store to save money. You try to explain to Sam that you just can't afford to buy him new clothes right now, but he is visibly upset. /“It's not fair! I don't like that we have to buy dumb used clothes- everyone can tell and then they make fun of me. I bet if we had lots of money I would have tons of friends and no one would tease me at all!/” Sam runs up to his room, crying. You feel like a failure as a parent. ",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nStudies show that bullying can lead to depression, anxiety, loneliness, and decreased academic performance [1].  Even in adulthood, victims of bullying struggle with job security and maintaining social relationships [2].  /nPoor children are more likely than richer peers to be bullied [3], often because they cannot afford the /“fashionable/” name brand clothing [4]. ",
+		  "footnotes": "[1] U.S. Department of Health and Human Services. (n.d). Effects of bullying. Retrieved from http://www.stopbullying.gov/at-risk/effects/ /n[2] Wolke, D., Copeland, W. E., Angold, A., & Costello, E. J. (2013). Impact of bullying in childhood on adult health, wealth, crime, and social outcomes. Psychological Science, 24(10), 1958-1970. doi: 10.1177/0956797613481608 /n[3] Kakarla, N. (2012, September 11). Research brief: Low socioeconomic status contributes to bullying risk. StopBullying Blog. Retrieved from http://www.stopbullying.gov/blog/research-brief-low-socioeconomic-status-contributes-bullying-risk /n[4] O’Connell, V. (2007, October 25). Fashion bullies attack- in middle school. The Wall Street Journal. Retrieved from http://www.wsj.com/articles/SB119326834963770540"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "It's been a year since you last did major clothes shopping for Sam, and most of his clothes have tears or stains or are too small for him. It's time to go shopping. You tell Sam you're taking him clothes shopping and his eyes light up. /n/“Can we go to the mall to get the clothes? I saw these cool Avengers shirts there and I really want to get them! All of my friends have Avengers clothes and they make fun of me `cause I don’t have any. Please?/” You frown. /“I was planning on going to the thrift store./” Sam’s face falls. /“I don’t like it there; the clothes smell funny and they won't have any Avengers stuff. I want something new for once!/” His bottom lip quivers, /“Please?/” he begs.",
+		"Choices": "You have two options: go to the mall to get Sam's clothes to make Sam happy, or save money by going to the thrift store.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
+		  "msg": "You decide to go to the mall and let Sam have some nice clothes for once. He's a quiet kid and you know that having a supportive friend group is important for kids to learn social skills. You don't want him to feel like an /“outcast/” because of his clothes. /nBecause you can't really afford these clothes, you use your credit card to buy them. Now you've got credit card debt to pay off every month on top of all of your other bills. The repairs on the hot water heater will have to wait another month or two - you grimace at the prospect of daily cold showers. ",
+		  "health": 0,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to go to the thrift store to save money. You try to explain to Sam that you just can't afford to buy him new clothes right now, but he is visibly upset. /“It's not fair! I don't like that we have to buy dumb used clothes- everyone can tell and then they make fun of me. I bet if we had lots of money I would have tons of friends and no one would tease me at all!/” Sam runs up to his room, crying. You feel like a failure as a parent. ",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nStudies show that bullying can lead to depression, anxiety, loneliness, and decreased academic performance [1].  Even in adulthood, victims of bullying struggle with job security and maintaining social relationships [2].  /nPoor children are more likely than richer peers to be bullied [3], often because they cannot afford the /“fashionable/” name brand clothing [4]. ",
+      "footnotes": "[1] U.S. Department of Health and Human Services. (n.d). Effects of bullying. Retrieved from http://www.stopbullying.gov/at-risk/effects/ /n[2] Wolke, D., Copeland, W. E., Angold, A., & Costello, E. J. (2013). Impact of bullying in childhood on adult health, wealth, crime, and social outcomes. Psychological Science, 24(10), 1958-1970. doi: 10.1177/0956797613481608 /n[3] Kakarla, N. (2012, September 11). Research brief: Low socioeconomic status contributes to bullying risk. StopBullying Blog. Retrieved from http://www.stopbullying.gov/blog/research-brief-low-socioeconomic-status-contributes-bullying-risk /n[4] O’Connell, V. (2007, October 25). Fashion bullies attack- in middle school. The Wall Street Journal. Retrieved from http://www.wsj.com/articles/SB119326834963770540"
 		}
-	  }
-	},
+  }
+},
+
 	{
 	  "id": 8,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "It's the end of a long day (and a long week) and you're exhausted. On your way to pick up Sam from after-school care you start to think about dinner. You know it would be way more cost-effective and healthy to cook something you have at home, but that would take energy that you just don’t have right now. /nYou think about ordering pizza instead. It would be more expensive, but oh so convenient. You begin to salivate just thinking about a slice of hot, cheesy pizza. ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Order pizza to save time and effort ",
+		  "opt2": "Make rice and beans at home to save money",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to order pizza. You work hard and you deserve a treat once in a while. Besides, you don't have leftovers at home and you don't feel like cooking something from scratch.  After being on your feet all day, you want to be able to just go home and relax and not have to worry about cooking a meal. /nYou call the pizza place in the car and 10 minutes after you and Sam get home your delicious pizza pie is waiting for you. You focus on its cheesy goodness and try not to think about how much fat is in it. /nUnfortunately, you couldn't really afford the pizza so to cover the expense you do some yard work for your neighbor in the morning, instead of taking Sam to the park like you promised. ",
 		  "health": -1,
 		  "mentalHealth": 1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to make rice and beans at home. You're exhausted physically and mentally but you know cooking at home is the better option health-wise and cost-wise. It's frustrating because you work so hard and yet you can never treat yourself or Sam. Your feet and legs ache from standing all day but you force yourself to head to the kitchen when you get home so you can start making dinner. /nBy the time you finish making dinner, eating, and cleaning up afterwards, you're too tired to take Sam to the park like you promised.  Sam is disappointed- he was looking forward to showing you how high he could go on the swings. ",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nA groundbreaking recent study shows that being in poverty negatively affects your cognitive abilities- having fewer resources makes you more likely to focus on achieving short term goals instead of long term goals. /nThis cognitive impairment perpetuates the cycle of poverty. Making rice and beans might be better in the long run, but when you're tired and hungry and stressed, it's hard to resist going the easy (but more expensive) route and buying pizza instead [1].",
+		  "footnotes": "[1] Mani, A., Mullainathan, S., Shafir, E., & Zhao, J. (2013). Poverty impedes cognitive function. Science, 341(6149), 976-980. doi: 10.1126/science.1238041"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "It's the end of a long day (and a long week) and you're exhausted. On your way to pick up Sam from after-school care you start to think about dinner. You know it would be way more cost-effective and healthy to cook something you have at home, but that would take energy that you just don’t have right now. /nYou think about ordering pizza instead. It would be more expensive, but oh so convenient. You begin to salivate just thinking about a slice of hot, cheesy pizza. ",
+		"Choices": "You have two options: order pizza to save time and effort or make rice and beans at home to save money.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to order pizza. You work hard and you deserve a treat once in a while. Besides, you don't have leftovers at home and you don't feel like cooking something from scratch.  After being on your feet all day, you want to be able to just go home and relax and not have to worry about cooking a meal. /nYou call the pizza place in the car and 10 minutes after you and Sam get home your delicious pizza pie is waiting for you. You focus on its cheesy goodness and try not to think about how much fat is in it. /nUnfortunately, you couldn't really afford the pizza so to cover the expense you do some yard work for your neighbor in the morning, instead of taking Sam to the park like you promised. ",
 		  "health": -1,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to make rice and beans at home. You're exhausted physically and mentally but you know cooking at home is the better option health-wise and cost-wise. It's frustrating because you work so hard and yet you can never treat yourself or Sam. Your feet and legs ache from standing all day but you force yourself to head to the kitchen when you get home so you can start making dinner. /nBy the time you finish making dinner, eating, and cleaning up afterwards, you're too tired to take Sam to the park like you promised.  Sam is disappointed- he was looking forward to showing you how high he could go on the swings. ",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nA groundbreaking recent study shows that being in poverty negatively affects your cognitive abilities- having fewer resources makes you more likely to focus on achieving short term goals instead of long term goals. /nThis cognitive impairment perpetuates the cycle of poverty. Making rice and beans might be better in the long run, but when you're tired and hungry and stressed, it's hard to resist going the easy (but more expensive) route and buying pizza instead [1].",
+		  "footnotes": "[1] Mani, A., Mullainathan, S., Shafir, E., & Zhao, J. (2013). Poverty impedes cognitive function. Science, 341(6149), 976-980. doi: 10.1126/science.1238041"
 		}
 	  }
 	},
 	{
 	  "id": 9,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "Sam wakes up this morning with a fever of 100° and a terrible headache. He's in no condition to go to school. You try calling your regular babysitter but she is working today. You make about a dozen more calls to friends and relatives but no one is free.  ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Take off work to stay home with Sam ",
+		  "opt2": "Send him to school sick and hope he feels better once he gets there",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to take off work. You can't really afford to lose a day's pay but you also can't send him to school when he’s this sick. Sam likes having you home with him. You make him soup and you snuggle on the couch and read books together. By the end of the day he is feeling much better. /nBecause your paycheck is smaller this week, grocery shopping is more difficult than usual. To save money, you use all your food stamps, leaving none for the rest of the month. You still don't have enough food for the whole week so you skip breakfast a couple days and visit the local food pantry over the weekend. The food pantry isn’t very well stocked; you take home some canned beans and a box of low-quality cereal bars. ",
 		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
+		  "mentalHealth": -1,
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to send Sam to school anyway. It's possible he'll start feeling better once he eats some breakfast and you really can't afford to miss a day of work. It's going to be hard enough buying food this week since you're almost out of this month's food stamps. /nHalf-way through your work day, you get a call from Sam's school. He was sent to the nurse's office and the nurse decided he was too sick to stay at school. The principle warns you that sending Sam to school when he has a 100° fever is nearly child abuse; she will be calling child protective services the next time it happens. /nYour heart stops for a moment at the thought of Sam being taken away from you. You leave work early to pick Sam up. Thankfully, you find someone who is able to watch him while he recovers for the next two days.",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nIn a recent survey, one-third of working parents with young children said it's difficult to take time off of work to care for a sick child because they worry they may lose pay or lose their jobs [1]. /nWithout paid sick leave, working parents with sick kids must choose between losing pay, sending their child to school sick, or finding other (often expensive) childcare options. ",
+		  "footnotes": "[1] University of Michegan C.S. Mott Children’s Hospital. (2012). National poll on children's health: sick kids, struggling parents (Volume 16, Issue 5). Ann Arbor, MI: Children Health Evaluation and Research Unit. "
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "Sam wakes up this morning with a fever of 100° and a terrible headache. He's in no condition to go to school. You try calling your regular babysitter but she is working today. You make about a dozen more calls to friends and relatives but no one is free.  ",
+		"Choices": "You have two options: take off work to stay home with Sam or send him to school sick and hope he feels better once he gets there.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to take off work. You can't really afford to lose a day's pay but you also can't send him to school when he’s this sick. Sam likes having you home with him. You make him soup and you snuggle on the couch and read books together. By the end of the day he is feeling much better. /nBecause your paycheck is smaller this week, grocery shopping is more difficult than usual. To save money, you use all your food stamps, leaving none for the rest of the month. You still don't have enough food for the whole week so you skip breakfast a couple days and visit the local food pantry over the weekend. The food pantry isn’t very well stocked; you take home some canned beans and a box of low-quality cereal bars.  ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
-		  "health": -1,
+		  "msg": "You decide to send Sam to school anyway. It's possible he'll start feeling better once he eats some breakfast and you really can't afford to miss a day of work. It's going to be hard enough buying food this week since you're almost out of this month's food stamps. /nHalf-way through your work day, you get a call from Sam's school. He was sent to the nurse's office and the nurse decided he was too sick to stay at school. The principle warns you that sending Sam to school when he has a 100° fever is nearly child abuse; she will be calling child protective services the next time it happens. /nYour heart stops for a moment at the thought of Sam being taken away from you. You leave work early to pick Sam up. Thankfully, you find someone who is able to watch him while he recovers for the next two days.",
+		  "health": 0,
 		  "mentalHealth": -1,
 		  "childHealth": -1
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nIn a recent survey, one-third of working parents with young children said it's difficult to take time off of work to care for a sick child because they worry they may lose pay or lose their jobs [1]. /nWithout paid sick leave, working parents with sick kids must choose between losing pay, sending their child to school sick, or finding other (often expensive) childcare options. ",
+		  "footnotes": "[1] University of Michegan C.S. Mott Children’s Hospital. (2012). National poll on children's health: sick kids, struggling parents (Volume 16, Issue 5). Ann Arbor, MI: Children Health Evaluation and Research Unit. "
 		}
 	  }
 	},
 	{
 	  "id": 10,
 	  "agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
+		"Intro": "All the way home from school, Sam tells you about a local summer kid's soccer program that he learned about today. Apparently a representative from the program stopped by during P.E and did some practice drills with the kids. The rep told Sam he was really good. /“He said I was the best one! You should have seen me, I kicked the ball so far!/” Sam exclaims gleefully. /nHe shows you the handout about the soccer program and your heart sinks. It's $65 per kid and that doesn't include all the gear you'd have to buy: cleats, shin guards, and athletic wear. /“Pleeeeeease can I do it?/” Sam pleads. This could be really good for him- he could learn good sportsmanship, teamwork, and perseverance. It's even possible if he keeps playing, he could get good enough to get a scholarship for college. ",
 		"Choices": {
 		  "msg": "You have two options:",
-		  "opt1": "Attend Parent's Day and miss work",
-		  "opt2": "Don't attend and hope Sam won't be upset",
+		  "opt1": "Pay for the summer program",
+		  "opt2": "Just practice with him on the weekends sometimes",
 		  "final": "Which do you choose?"
 		},
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
-		  "health": -1,
-		  "mentalHealth": 1,
-		  "childHealth": -1
-		},
-		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide to sign Sam up for the soccer program. It will be rough financially, but you know this will be good for Sam. You go to the community center the next day after work to register him for the program. You pay the $65 and then when the summer starts you find him some soccer gear second-hand ($40). Watching Sam play soccer at the end of the summer, you can see how far he’s come. /nHe makes the winning goal at his last game and his teammates gather around, cheering and hugging him. You've never been so proud of him, but you're also struggling to keep your eyes open. /nYou've been working nights at a fast food joint to pay for the soccer expenses. You're tired all the time and you've started to get daily migraines from lack of sleep. The migraines make you dizzy and nauseous, making it hard for you to concentrate at work. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 1
+		},
+		"Outcome2": {
+		  "msg": "You decide not to sign Sam up for the soccer program. You just can't afford it. Sam is disappointed, though he likes the idea of you playing soccer with him on Saturdays. You spend $40 on soccer gear and $10 on a soccer ball. To pay for it, you forego seeing a doctor about the cough you've had for the past two weeks. /nSam often gets frustrated because you aren't that good; you worry he's missing out on learning how to work as part of a team. Even though Sam improves some over the summer, but you know you can't replace a trained soccer coach and the experience of playing on a real team. ",
+		  "health": -1,
+		  "mentalHealth": -1,
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nResearch shows that playing organized sports improves children’s lives in a number of ways. Kids who play sports get better grades in school because they've learned goal-setting, patience, and perseverance. They gain teamwork and leadership skills; they show higher self-esteem and a greater ability to handle emotional stress [1]. ",
+		  "footnotes": "[1] University of Missouri Women’s and Children's Hospital. (2015). Benefits of sports. Retrieved from http://www.muhealth.org/services/pediatrics/conditions/adolescent-medicine/benefits-of-sports/"
 		}
 	  },
 	  "no-agency": {
-		"Intro": "Sam comes home today with a flyer stating that next Monday their school is having a brunch at 10am to celebrate Parents Day. Parents are invited to come for brunch and some short skits. You read the flyer and tell him you probably can’t make it because of work. Sam frowns, “But all the other kids’ parents will be there! And I want you to see how good my skit is. You’re always working. Can’t you just take the day off?�? You sigh. ",
-		"Choices": "You have two options: attend Parents Day and miss work or don’t attend and hope Sam won’t be upset. You’re not sure what to do.",
+		"Intro": "All the way home from school, Sam tells you about a local summer kid's soccer program that he learned about today. Apparently a representative from the program stopped by during P.E and did some practice drills with the kids. The rep told Sam he was really good. /“He said I was the best one! You should have seen me, I kicked the ball so far!/” Sam exclaims gleefully. /nHe shows you the handout about the soccer program and your heart sinks. It's $65 per kid and that doesn't include all the gear you'd have to buy: cleats, shin guards, and athletic wear. /“Pleeeeeease can I do it?/” Sam pleads. This could be really good for him- he could learn good sportsmanship, teamwork, and perseverance. It's even possible if he keeps playing, he could get good enough to get a scholarship for college. ",
+		"Choices": "You have two options: pay for the summer program or just practice with him on the weekends sometimes.  You’re not sure what to do.",
 		"Outcome1": {
-		  "msg": "You decide to go to brunch. It’s worth missing half a day of work to see that smile on Sam’s face and watch him perform in his skit. You let your boss know you’ll be taking a half-day that Monday and you end up having a lovely time at the brunch. But because you missed work, your paycheck that week is much lower and you go without lunch for two days so that you have enough money for Same to get lunch at school. Working hungry means you’re tired and less productive; your boss warns you to step it up or get a pay cut. ",
+		  "msg": "You decide to sign Sam up for the soccer program. It will be rough financially, but you know this will be good for Sam. You go to the community center the next day after work to register him for the program. You pay the $65 and then when the summer starts you find him some soccer gear second-hand ($40). Watching Sam play soccer at the end of the summer, you can see how far he’s come. /nHe makes the winning goal at his last game and his teammates gather around, cheering and hugging him. You've never been so proud of him, but you're also struggling to keep your eyes open. /nYou've been working nights at a fast food joint to pay for the soccer expenses. You're tired all the time and you've started to get daily migraines from lack of sleep. The migraines make you dizzy and nauseous, making it hard for you to concentrate at work. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 1
 		},
 		"Outcome2": {
-		  "msg": "You decide to skip brunch. You’re living paycheck to paycheck and you just can’t afford to lose half a day’s pay. Sam is disappointed that you can’t come and on Monday night he is quieter than usual and doesn’t eat all of his dinner. “I wish you could have come to the brunch. I did a really good job in my skit.�? You sigh. “I know Sam, I wish I could have come.�?",
+		  "msg": "You decide not to sign Sam up for the soccer program. You just can't afford it. Sam is disappointed, though he likes the idea of you playing soccer with him on Saturdays. You spend $40 on soccer gear and $10 on a soccer ball. To pay for it, you forego seeing a doctor about the cough you've had for the past two weeks. /nSam often gets frustrated because you aren't that good; you worry he's missing out on learning how to work as part of a team. Even though Sam improves some over the summer, but you know you can't replace a trained soccer coach and the experience of playing on a real team. ",
 		  "health": -1,
 		  "mentalHealth": -1,
-		  "childHealth": -1
+		  "childHealth": 0
 		},
 		"Stats": {
-		  "text": "Did you know? When parents are involved in their children’s schools (such as by attending events and joining committees), students show better academic performance and fewer behavioral problems1. However, children living below the poverty line are much less likely to have their parents involved at school2, most likely because the parents are busy struggling to provide for their child’s basic needs.",
-		  "footnotes": ""
+		  "text": "Did you know? /nResearch shows that playing organized sports improves children’s lives in a number of ways. Kids who play sports get better grades in school because they've learned goal-setting, patience, and perseverance. They gain teamwork and leadership skills; they show higher self-esteem and a greater ability to handle emotional stress [1]. ",
+		  "footnotes": "[1] University of Missouri Women’s and Children's Hospital. (2015). Benefits of sports. Retrieved from http://www.muhealth.org/services/pediatrics/conditions/adolescent-medicine/benefits-of-sports/"
 		}
 	  }
 	}

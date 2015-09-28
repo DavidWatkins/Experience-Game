@@ -15,11 +15,11 @@
         openModal: function() {
             var self = this;
             window["CloseModalWindow"] = function() {
-                var id = document.getElementById("idInput").value;
-                console.log(id);
-                if(!id)
+                var qualtricsID = document.getElementById("idInput").value;
+                console.log(qualtricsID);
+                if(!qualtricsID)
                     return;
-                self.game.gameState.returnData.id = id;
+                self.game.gameState.returnData.qualtricsID = qualtricsID;
                 $('#idModal').modal('hide');
                 self.game.state.start('intro');
             };

@@ -75,7 +75,7 @@
         }
 
         if(footer) {
-            var referenceText = game.add.text(game.width * 0.5, game.height * 0.85, footer, new Style(game.constants.FONT, 11, game.width * 0.8));
+            var referenceText = game.add.text(game.width * 0.5, game.height * 0.775, footer, new Style(game.constants.FONT, 11, game.width * 0.8));
             referenceText.anchor.set(0.5);
         }
 
