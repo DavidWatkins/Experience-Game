@@ -5,13 +5,15 @@
     'use strict';
 
     var ScreenText = ScreenText || {};
+    var defaultFontSize = 22;
+    var defaultFootNoteSize = 12;
     ScreenText.defaultContinueText = "Click anywhere to continue...";
     ScreenText.currentText = [];
 
     ScreenText.displayChoiceText = function(game, title, choice1, choice1Func, choice2, choice2Func, continueText) {
         this.removeAllText(game);
 
-        var style = new Style(game.constants.FONT, 18);
+        var style = new Style(game.constants.FONT, defaultFontSize);
 
         if(title) {
             var introText = game.add.text(game.width * 0.5, game.height * 0.1, title, style);
@@ -20,7 +22,7 @@
         }
 
         if(choice1) {
-            var textInput1 = new TextInput(game, 0.25, 0.5, choice1, 18, choice1Func);
+            var textInput1 = new TextInput(game, 0.25, 0.5, choice1, defaultFontSize, choice1Func);
             game.add.existing(textInput1);
             textInput1.setWordWrap(game.world.width * 0.4);
             textInput1.anchor.set(0.5);
@@ -28,7 +30,7 @@
         }
 
         if(choice2) {
-            var textInput2 = new TextInput(game, 0.75, 0.5, choice2, 18, choice2Func);
+            var textInput2 = new TextInput(game, 0.75, 0.5, choice2, defaultFontSize, choice2Func);
             game.add.existing(textInput2);
             textInput2.setWordWrap(game.world.width * 0.4);
             textInput2.anchor.set(0.5);
@@ -45,7 +47,7 @@
 
     ScreenText.displayText = function(self, game, centerText, onDown, footerText) {
         this.removeAllText(game);
-        var style = new Style(game.constants.FONT, 18, game.width * 0.8);
+        var style = new Style(game.constants.FONT, defaultFontSize, game.width * 0.8);
 
         if(centerText !== undefined) {
             var introText = game.add.text(game.width * 0.5, game.height * 0.5, centerText, style);
@@ -67,15 +69,15 @@
 
     ScreenText.displayTextWithFooter = function(self, game, centerText, footer, onDown, footerText) {
         this.removeAllText(game);
-        var style = new Style(game.constants.FONT, 18, game.width * 0.8);
+        var style = new Style(game.constants.FONT, defaultFontSize, game.width * 0.8);
 
         if(centerText) {
-            var introText = game.add.text(game.width * 0.5, game.height * 0.4, centerText, style);
-            introText.anchor.set(0.5);
+            var introText = game.add.text(game.width * 0.5, game.height * 0.05, centerText, style);
+            introText.anchor.set(0.5, 0);
         }
 
         if(footer) {
-            var referenceText = game.add.text(game.width * 0.5, game.height * 0.775, footer, new Style(game.constants.FONT, 11, game.width * 0.8));
+            var referenceText = game.add.text(game.width * 0.5, game.height * 0.75, footer, new Style(game.constants.FONT, defaultFootNoteSize, game.width * 0.8));
             referenceText.anchor.set(0.5);
         }
 
