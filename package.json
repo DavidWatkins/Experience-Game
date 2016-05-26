@@ -19,12 +19,14 @@
     "url": "https://github.com/DavidWatkins/Walking-in-Their-Shoes.git"
   },
   "dependencies": {
+    "mongoskin": "1.3.20",
     "bower": "*",
     "del": "*",
     "gulp": "*",
     "gulp-concat": "*",
     "gulp-connect": "*",
     "gulp-download": "*",
+    "jshint": "2.*",
     "gulp-jshint": "*",
     "gulp-minify-css": "*",
     "gulp-minify-html": "*",
@@ -36,7 +38,7 @@
     "lodash": "*",
     "tiny-lr": "*",
     "express": "*",
-    "mongodb": "*",
+    "mongodb": "1.4",
     "monk": "*",
     "serve-favicon": "~2.2.1",
     "express-json2csv": "*",

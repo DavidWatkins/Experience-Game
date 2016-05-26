@@ -37,18 +37,39 @@
             this.cursors = this.input.keyboard.createCursorKeys();
 
             //Add Rain Emitter
-            addRainEmitter(this.game);
+            //Changed 5/26/16 - Due to bad feedback
+            //addRainEmitter(this.game);
 
             this.addHealthBars();
+        },
+
+        updateTileSequentially: function() {
+            for (var x = 0; x < this.game.constants.GRID_SIZE; x++) {
+                for (var y = 0; y < this.game.constants.GRID_SIZE; y++) {
+                    var tile = this.map.getTile(x, y, this.ObjectLayer);
+                    if(tile && tile.index == this.game.constants.Tiles.ROADBLOCK_TILE) {
+                        this.map.removeTile(x, y, this.ObjectLayer);
+                        console.log(x, y);
+                        return;
+                    }
+                }
+            }
         },
 
         updateTiles: function () {
             var tileI,
                 currentTile;
+
+            var numToRemove = this.game.constants.NUM_SCENARIOS - (this.game.information.scenarios.length + this.game.gameState.usedScenarios);
+            for(var index = 0; index < numToRemove; index++) {
+                this.updateTileSequentially();
+            }
+
             for (tileI in this.game.gameState.tiles) {
                 if (this.game.gameState.tiles.hasOwnProperty(tileI)) {
                     currentTile = this.game.gameState.tiles[tileI];
                     this.map.removeTile(currentTile.x, currentTile.y, this.ObjectLayer);
+                    console.log(currentTile);
                 }
             }
         },
