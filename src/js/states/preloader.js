@@ -49,7 +49,7 @@
             this.game.information.exitText = gameData.Final.text;
 
             this.game.gameState.returnData = {
-                id: 0,
+                qualtricsID: 0,
                 agencyType: (window.isAgency) ? "Agency" : "No Agency",
                 timeSpent: Date.now()
             };

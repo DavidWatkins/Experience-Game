@@ -66,10 +66,10 @@
          */
         scaleGame: function () {
             this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-            this.game.scale.minWidth =  this.game.constants.WIDTH;
-            this.game.scale.minHeight = this.game.constants.HEIGHT;
-            this.game.scale.maxWidth = this.game.constants.WIDTH;
-            this.game.scale.maxHeight = this.game.constants.HEIGHT;
+            // this.game.scale.minWidth =  this.game.constants.WIDTH;
+            // this.game.scale.minHeight = this.game.constants.HEIGHT;
+            this.game.scale.maxHeight = $(window).height();
+            this.game.scale.maxWidth = this.game.constants.WIDTH * (this.game.scale.maxHeight/this.game.constants.HEIGHT);
             this.game.scale.pageAlignHorizontally = true;
         },
 
