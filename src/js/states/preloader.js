@@ -51,6 +51,7 @@
             this.game.gameState.returnData = {
                 qualtricsID: 0,
                 agencyType: (window.isAgency) ? "Agency" : "No Agency",
+                noStats: (window.noStats) ? "No stats shown" : "Stats shown",
                 timeSpent: Date.now()
             };
 

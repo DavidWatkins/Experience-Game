@@ -27,7 +27,11 @@ Other dependencies that come when you run npm install
 
 To run the application:
 - run "node server.js"
-- Connect to 127.0.0.1/#NA for no agency and 127.0.0.1/#AG for agency
+- Connect to:
+	- 127.0.0.1/#NAS for no agency/with stats
+	- 127.0.0.1/#NANS for no agency/no stats
+	- 127.0.0.1/#AGS for agency/with stats
+	- 127.0.0.1/#AGNS for agency with no stats
 - Connect to 127.0.0.1/getData to receive all records in the mongoDB
 
 ## Contributing

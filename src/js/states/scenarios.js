@@ -54,6 +54,9 @@
 
             //Display Stats
             function(self) {
+                if(self.noStats) {
+                    self.game.state.start('game');
+                }
                 ScreenText.displayTextWithFooter(self, self.game, self.scenario.Stats.text, self.scenario.Stats.footnotes, self.nextState);
             },
 
@@ -82,6 +85,8 @@
             } else {
                 this.scenario = this.scenario['no-agency'];
             }
+
+            this.noStats = window.noStats;
 
             this.nextState();
         },

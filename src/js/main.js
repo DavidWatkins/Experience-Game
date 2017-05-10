@@ -16,12 +16,24 @@ window.addEventListener('load', function () {
         game.state.start('boot');
     }
 
-    crossroads.addRoute('#NA', function(){
+    crossroads.addRoute('#NAS', function(){
         window["isAgency"] = false;
+        window["noStats"] = false;
         loadGame();
     });
-    crossroads.addRoute('#AG', function() {
+    crossroads.addRoute('#NANS', function(){
+        window["isAgency"] = false;
+        window["noStats"] = true;
+        loadGame();
+    });
+    crossroads.addRoute('#AGS', function() {
         window["isAgency"] = true;
+        window["noStats"] = false;
+        loadGame();
+    });
+    crossroads.addRoute('#AGNS', function() {
+        window["isAgency"] = true;
+        window["noStats"] = true;
         loadGame();
     });
 
