@@ -30,12 +30,18 @@
                 }
             }
 
-            if(window.isAgency && text.agencyText) {
+            if(window.isAgency && !window.noStats && text.agencyText) {
                 displayText = text.agencyText;
-            } else if(!window.isAgency && text.noAgencyText) {
+            } else if(!window.isAgency && !window.noStats && text.noAgencyText) {
                 displayText = text.noAgencyText;
-            } else {
+            } else if(window.isAgency && window.noStats && text.agencyNoStatsText) {
+                displayText = text.agencyNoStatsText;
+            } else if(!window.isAgency && window.noStats && text.noAgencyNoStatsText) {
+                displayText = text.noAgencyNoStatsText;
+            } else if(text.text) {
                 displayText = text.text;
+            } else {
+                displayText = "";
             }
 
             ScreenText.displayTextWithFooter(
