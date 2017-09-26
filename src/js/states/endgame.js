@@ -20,19 +20,19 @@
             console.log(this.game.gameState.returnData);
             console.log(JSON.stringify( this.game.gameState.returnData ));
 
-            $.ajax({
-                url: this.game.constants.POST_URL,
-                data: this.game.gameState.returnData,
-                error: function(jqXhr, textStatus, errorThrown) {
-                    console.log(errorThrown);
-                },
-                dataType: 'text',
-                success: function(data) {
-                    console.log(data);
-                    //self.sendDataToServer();
-                },
-                type: 'POST'
-            });
+            // $.ajax({
+            //     url: this.game.constants.POST_URL,
+            //     data: this.game.gameState.returnData,
+            //     error: function(jqXhr, textStatus, errorThrown) {
+            //         console.log(errorThrown);
+            //     },
+            //     dataType: 'text',
+            //     success: function(data) {
+            //         console.log(data);
+            //         //self.sendDataToServer();
+            //     },
+            //     type: 'POST'
+            // });
 
         }
     };

@@ -36,6 +36,11 @@ window.addEventListener('load', function () {
         window["noStats"] = true;
         loadGame();
     });
+    crossroads.bypassed.add(function(request) {
+        window["isAgency"] = true;
+        window["noStats"] = false;
+        loadGame();
+    });
 
     crossroads.parse(window.location.hash); /*This is where the parser function is called to match against the routes defined*/
 }, false);
