@@ -1,6 +1,6 @@
 # Walking in Their Shoes: Poverty in America
 
-TODO: Write a project description
+A game that presents scenarios of impoverishment in America. Written as part of a collaboration with researchers at Yale to encourage subjects to gain an alternative perspective to inequalities in America. 
 
 ## Installation
 
@@ -123,4 +123,4 @@ Sithjester for the character sprite
 
 ## License
 
-MIT
+GPLv3
