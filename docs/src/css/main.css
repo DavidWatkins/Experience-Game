@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+}
+
+.fontPreload{
+    position:absolute;
+    left:-100px;
+}
+
+@font-face {
+    font-family: 'Kingthings';
+    src: url('../assets/font/Kingthings_Trypewriter_2-webfont.eot');
+    src: url('../assets/font/Kingthings_Trypewriter_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/font/Kingthings_Trypewriter_2-webfont.woff') format('woff'),
+         url('../assets/font/Kingthings_Trypewriter_2-webfont.ttf') format('truetype'),
+         url('../assets/font/Kingthings_Trypewriter_2-webfont.svg#carbontyperegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

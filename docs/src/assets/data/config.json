@@ -1,0 +1,82 @@
+{
+  "WIDTH": 960,
+  "HEIGHT": 896,
+  "GRID_SIZE": 32,
+  "ANIMATION_SPEED": 8,
+
+  "AGENCY": 1,
+  "NO_AGENCY": 2,
+
+  "POST_URL": "/submitData",
+
+  "NUM_SCENARIOS": 10,
+
+  "FONT": "Kingthings",
+
+  "Title": "Walking in Their Shoes: Poverty in America",
+
+  "Tiles": {
+    "ROADBLOCK_TILE": 37
+  },
+
+  "TileRules": {
+    "5": ["LEFT", "RIGHT"],
+    "6": ["UP", "RIGHT"],
+    "7": ["UP", "LEFT", "RIGHT", "DOWN"],
+    "8": ["UP", "DOWN"],
+    "13": ["UP", "LEFT"],
+    "15": ["DOWN", "RIGHT"],
+    "16": ["LEFT", "DOWN"],
+    "21": ["UP", "RIGHT", "DOWN"],
+    "22": ["LEFT", "UP", "RIGHT"],
+    "23": ["LEFT", "DOWN", "RIGHT"],
+    "24": ["LEFT", "DOWN", "UP"]
+  },
+
+  "Colors": [
+
+  ],
+
+  "Directions": {
+    "UP": {
+      "x": 0,
+      "y": -1,
+
+      "anim": "up",
+      "animFrames": [12, 13, 14, 15],
+
+      "idleAnim": "idle-up",
+      "idleFrames": [12]
+    },
+    "DOWN": {
+      "x": 0,
+      "y": 1,
+
+      "anim": "down",
+      "animFrames": [0, 1, 2, 3],
+
+      "idleAnim": "idle-down",
+      "idleFrames": [0]
+    },
+    "LEFT": {
+      "x": -1,
+      "y": 0,
+
+      "anim": "left",
+      "animFrames": [4, 5, 6, 7],
+
+      "idleAnim": "idle-left",
+      "idleFrames": [4]
+    },
+    "RIGHT": {
+      "x": 1,
+      "y": 0,
+
+      "anim": "right",
+      "animFrames": [8, 9 , 10, 11],
+
+      "idleAnim": "idle-right",
+      "idleFrames": [8]
+    }
+  }
+}

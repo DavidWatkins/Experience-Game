@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8">
+  <title>Walking in Their Shoes</title>
+
+  <!-- build:css bootstrap.min.css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- /build -->
+
+  <!-- build:css main.min.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- /build -->
+</head>
+
+<body>
+
+<div class="modal fade" id="idModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Please enter your user ID</h4>
+      </div>
+      <div class="modal-body">
+        <input id="idInput" name="id" placeholder="ID Number" type="number">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="CloseModalWindow();">Submit</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="fontPreload" style="font-family: Kingthings;">.</div>
+
+<div id="walking-in-their-shoes-game" class="game"></div>
+
+<!-- build:js phaser.min.js-->
+<script src="bower_components/phaser-official/build/phaser.min.js"></script>
+<!-- /build -->
+
+<!-- build:js jquery.min.js-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- /build -->
+
+<!-- build:js phaser-state-transition-plugin.js-->
+<script src="bower_components/phaser-state-transition-plugin/dist/phaser-state-transition-plugin.js"></script>
+<!-- /build -->
+
+<!-- build:js signals.js-->
+<script src="bower_components/crossroads/dev/lib/signals.js"></script>
+<!-- /build -->
+
+<!-- build:js crossroads.min.js-->
+<script src="bower_components/crossroads/dist/crossroads.min.js"></script>
+<!-- /build -->
+
+<!-- build:js bootstrap.min.js-->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- /build -->
+
+<!-- build:js main.min.js -->
+<script src="js/states/boot.js"></script>
+<script src="js/states/preloader.js"></script>
+<script src="js/states/menu.js"></script>
+<script src="js/states/game.js"></script>
+<script src="js/states/color_chooser.js"></script>
+<script src="js/states/howto.js"></script>
+<script src="js/states/scenarios.js"></script>
+<script src="js/states/endgame.js"></script>
+<script src="js/states/Intro.js"></script>
+
+<script src="js/prefabs/Player.js"></script>
+<script src="js/prefabs/TextInput.js"></script>
+<script src="js/prefabs/HealthBar.js"></script>
+<script src="js/prefabs/ScreenText.js"></script>
+<script src="js/prefabs/RainEmitter.js"></script>
+
+<script src="js/utils/List.js"></script>
+<script src="js/utils/StyleGenerator.js"></script>
+
+<script src="js/main.js"></script>
+<!-- yo phaser:state new-state-files-put-here -->
+<!-- /build -->
+
+</body>
+</html>
